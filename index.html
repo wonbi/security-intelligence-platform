@@ -75,7 +75,7 @@ const $ = id => document.getElementById(id);
 const baseInput = $("apiBase"), statusText = $("apiStatus"), badge = $("systemBadge");
 const initial = localStorage.getItem("sentinel_api_base") || "";
 baseInput.value = initial;
-const cleanBase = value => value.trim().replace(/\\/+$/, "");
+const cleanBase = value => value.trim().replace(/\/+$/, "");
 async function checkConnection(base) {
   if (!base) { statusText.textContent = "Cloudflare Worker 주소를 먼저 입력하세요."; return false; }
   try {
