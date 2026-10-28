@@ -34,7 +34,7 @@ body{background:var(--bg);color:var(--text);font-family:Arial,Pretendard,"Noto S
 .section-head h2{font-size:18px;letter-spacing:-.02em}
 .tag{color:#8a5918;background:#f6ecd9;border-radius:4px}
 .news{padding:15px 12px;border-bottom:1px solid #e9e4da;border-left:2px solid #e5a650}
-.news strong{font-size:15px}
+.news strong{font-size:15px}.news a{color:inherit;text-decoration:none}.news a:hover{text-decoration:underline}
 .news small,.threat small{color:#77776f}
 .threat{border-color:#e9e4da}
 .risk{color:#9d3c35;background:#f7e7e2;border-radius:4px}
@@ -49,19 +49,20 @@ body{background:var(--bg);color:var(--text);font-family:Arial,Pretendard,"Noto S
 <body><main class="shell">
 <header class="top"><div class="brand"><div class="logo">⌁</div><div><strong>SENTINEL</strong><br><small>SECURITY INTELLIGENCE</small></div></div><span class="badge" id="systemBadge">● 서버 연결 대기</span></header>
 <section class="intro"><h1>보안 위협을 한눈에</h1><p>위협 지표를 조회하고 보안 이슈와 대응 정보를 모아보세요.</p></section>
-<section class="connect"><div><label for="apiBase">보안 분석 서버 주소</label><input id="apiBase" type="url" placeholder="Worker 주소를 입력한 뒤 연결 저장"></div><button id="saveApi" type="button">연결 저장</button><div class="connect-status" id="apiStatus">VirusTotal 키는 서버에 보관됩니다. 이 칸에는 Cloudflare Worker 주소만 입력하세요.</div></section>\n<form class="search" id="lookup"><input id="indicator" aria-label="분석 대상" placeholder="파일 해시, 도메인, IP 또는 URL 입력" autocomplete="off"><button>위협 조회</button></form>
+<section class="connect"><div><label for="apiBase">보안 분석 서버 주소</label><input id="apiBase" type="url" placeholder="Worker 주소를 입력한 뒤 연결 저장"></div><button id="saveApi" type="button">연결 저장</button><div class="connect-status" id="apiStatus">VirusTotal 키는 서버에 보관됩니다. 이 칸에는 Cloudflare Worker 주소만 입력하세요.</div></section>
+<form class="search" id="lookup"><input id="indicator" aria-label="분석 대상" placeholder="파일 해시, 도메인, IP 또는 URL 입력" autocomplete="off"><button>위협 조회</button></form>
 <div class="hint">해시·도메인·IP·URL의 기존 VirusTotal 평판을 조회합니다. 파일이나 URL을 새로 제출하지 않습니다.</div><div class="toast" id="toast" role="status"></div><article class="card report" id="report" aria-live="polite"></article>
 <section class="grid stats">
-<article class="card"><div class="stat-label">오늘 확인할 이슈</div><div class="stat-value">—</div><div class="stat-foot"><span class="dot"></span>뉴스 피드 연결 대기</div></article>
+<article class="card"><div class="stat-label">최근 KISA 보안공지</div><div class="stat-value" id="newsCount">—</div><div class="stat-foot"><span class="dot"></span>보호나라 RSS</div></article>
 <article class="card"><div class="stat-label">최근 분석 요청</div><div class="stat-value">—</div><div class="stat-foot">분석 API 연결 후 표시</div></article>
 <article class="card"><div class="stat-label">고위험 지표</div><div class="stat-value">—</div><div class="stat-foot">실제 평판 결과 미연결</div></article>
 <article class="card"><div class="stat-label">연동 상태</div><div class="stat-value" style="font-size:20px">준비 중</div><div class="stat-foot">API 키는 서버에 안전하게 보관</div></article>
 </section>
 <section class="grid columns">
-<article class="card"><div class="section-head"><h2>최근 보안 이슈</h2><span class="tag">샘플 콘텐츠</span></div>
-<div class="news"><strong>위협 뉴스 피드를 연결해 최신 이슈를 표시하세요</strong><small>출처와 게시 시각을 함께 저장하도록 설계</small></div>
-<div class="news"><strong>취약점·침해사고 공지 모니터링</strong><small>공식 보안 권고 및 공급자 공지 연동 예정</small></div>
-<div class="news"><strong>대응 가이드와 분석 결과 연결</strong><small>확인된 정보와 권고 조치를 분리해 제공</small></div>
+<article class="card"><div class="section-head"><h2>최근 보안 이슈</h2><span class="tag" id="newsSource">KISA RSS 연결 중</span></div>
+<div id="newsFeed" aria-live="polite">
+<div class="news"><strong>KISA 보호나라 RSS를 불러오고 있습니다.</strong><small>공식 보안공지 원문과 게시 시각을 표시합니다.</small></div>
+</div>
 <div class="actions"><a href="https://www.cisa.gov/news-events/cybersecurity-advisories" target="_blank" rel="noreferrer">CISA 권고</a><a href="https://www.krcert.or.kr/" target="_blank" rel="noreferrer">KrCERT</a><a href="https://www.virustotal.com/" target="_blank" rel="noreferrer">VirusTotal</a></div></article>
 <article class="card"><div class="section-head"><h2>분석 모듈</h2><span class="tag">연동 전</span></div>
 <div class="threat"><div><strong>파일·해시 평판</strong><small>VirusTotal · 멀티엔진 결과 조회</small></div><span class="risk mid">대기</span></div>
@@ -73,7 +74,7 @@ body{background:var(--bg);color:var(--text);font-family:Arial,Pretendard,"Noto S
 </main><script>
 const $ = id => document.getElementById(id);
 const baseInput = $("apiBase"), statusText = $("apiStatus"), badge = $("systemBadge");
-const initial = localStorage.getItem("sentinel_api_base") || "";
+const initial = localStorage.getItem("sentinel_api_base") || "https://sentinel-vt-proxy.feellost.workers.dev";
 baseInput.value = initial;
 const cleanBase = value => value.trim().replace(/\/+$/, "");
 async function checkConnection(base) {
@@ -99,6 +100,72 @@ $("saveApi").addEventListener("click", async () => {
   await checkConnection(base);
 });
 if (initial) checkConnection(initial);
+
+async function loadNews(base) {
+  const sourceLabel = $("newsSource");
+  const feed = $("newsFeed");
+  const count = $("newsCount");
+  try {
+    const response = await fetch(cleanBase(base) + "/api/news?source=kisa");
+    if (!response.ok) throw new Error("피드 서버 응답 오류 (" + response.status + ")");
+    const xml = new DOMParser().parseFromString(await response.text(), "application/xml");
+    if (xml.querySelector("parsererror")) throw new Error("RSS 형식을 읽지 못했습니다.");
+    const items = Array.from(xml.querySelectorAll("item")).slice(0, 6);
+    feed.replaceChildren();
+    count.textContent = String(items.length);
+    if (!items.length) {
+      const empty = document.createElement("div");
+      empty.className = "news";
+      const title = document.createElement("strong");
+      title.textContent = "표시할 보안공지가 없습니다.";
+      empty.append(title);
+      feed.append(empty);
+    }
+    items.forEach(item => {
+      const titleText = item.querySelector("title")?.textContent?.trim() || "제목 없음";
+      const linkText = item.querySelector("link")?.textContent?.trim() || "";
+      const dateText = item.querySelector("pubDate")?.textContent?.trim() || "";
+      const row = document.createElement("div");
+      row.className = "news";
+      const title = document.createElement("strong");
+      title.textContent = titleText;
+      let safeLink = "";
+      try {
+        const link = new URL(linkText);
+        if (link.protocol === "https:" && (link.hostname === "boho.or.kr" || link.hostname.endsWith(".boho.or.kr"))) safeLink = link.href;
+      } catch {}
+      if (safeLink) {
+        const anchor = document.createElement("a");
+        anchor.href = safeLink;
+        anchor.target = "_blank";
+        anchor.rel = "noopener noreferrer";
+        anchor.append(title);
+        row.append(anchor);
+      } else {
+        row.append(title);
+      }
+      const small = document.createElement("small");
+      const date = new Date(dateText);
+      small.textContent = "KISA 보호나라" + (dateText && !Number.isNaN(date.getTime()) ? " · " + date.toLocaleString("ko-KR") : "");
+      row.append(small);
+      feed.append(row);
+    });
+    sourceLabel.textContent = "KISA 보호나라 RSS";
+  } catch (error) {
+    count.textContent = "—";
+    sourceLabel.textContent = "RSS 연결 오류";
+    feed.replaceChildren();
+    const row = document.createElement("div");
+    row.className = "news";
+    const title = document.createElement("strong");
+    title.textContent = "보안공지를 불러오지 못했습니다.";
+    const detail = document.createElement("small");
+    detail.textContent = "Worker 배포 상태와 KISA RSS 연결을 확인해 주세요.";
+    row.append(title, detail);
+    feed.append(row);
+  }
+}
+loadNews(initial);
 
 function detectType(value) {
   if (/^(?:[a-fA-F0-9]{32}|[a-fA-F0-9]{40}|[a-fA-F0-9]{64})$/.test(value)) return "hash";
