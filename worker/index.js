@@ -4,6 +4,7 @@
  * Supported: GET /api/health, GET /api/lookup?type=hash|domain|ip|url&value=...
  */
 const VT_BASE = "https://www.virustotal.com/api/v3";
+const KISA_RSS_URL = "https://www.boho.or.kr/kr/rss.do?bbsId=B0000133";
 const MAX_VALUE_LENGTH = 2048;
 
 export default {
@@ -26,16 +27,41 @@ export default {
     if (request.method !== "GET") {
       return json({ error: "Method not allowed" }, 405, cors);
     }
-    if (!env.VT_API_KEY) {
-      return json({ error: "VirusTotal API key is not configured on the server." }, 503, cors);
-    }
-
     const url = new URL(request.url);
     if (url.pathname === "/api/health") {
-      return json({ ok: true, provider: "VirusTotal" }, 200, cors);
+      return json({ ok: true, providers: { virustotal: Boolean(env.VT_API_KEY), news: "KISA" } }, 200, cors);
+    }
+    if (url.pathname === "/api/news") {
+      const source = url.searchParams.get("source") || "kisa";
+      if (source !== "kisa") return json({ error: "Unsupported news source." }, 400, cors);
+      try {
+        const upstream = await fetch(KISA_RSS_URL, {
+          headers: { accept: "application/rss+xml, application/xml, text/xml" },
+        });
+        if (!upstream.ok) {
+          return json({ error: "KISA RSS returned HTTP " + upstream.status }, 502, cors);
+        }
+        const body = await upstream.text();
+        if (body.length > 1_000_000) {
+          return json({ error: "KISA RSS response is too large." }, 502, cors);
+        }
+        return new Response(body, {
+          status: 200,
+          headers: {
+            ...cors,
+            "Content-Type": "application/xml; charset=utf-8",
+            "Cache-Control": "public, max-age=900",
+          },
+        });
+      } catch (error) {
+        return json({ error: "Unable to fetch KISA RSS." }, 502, cors);
+      }
     }
     if (url.pathname !== "/api/lookup") {
       return json({ error: "Not found" }, 404, cors);
+    }
+    if (!env.VT_API_KEY) {
+      return json({ error: "VirusTotal API key is not configured on the server." }, 503, cors);
     }
 
     const type = url.searchParams.get("type") || "";
