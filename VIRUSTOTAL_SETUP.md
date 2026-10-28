@@ -12,7 +12,7 @@ GitHub Pages는 화면을 제공하고, 이 Cloudflare Worker가 VirusTotal API 
 
 ## 2. 대시보드 연결
 
-Worker 주소를 대시보드의 API 연결 설정에 입력하고 저장하면 됩니다. 주소는 `https://<worker-name>.<account>.workers.dev` 형태입니다. 끝에 슬래시나 `/api`를 붙이지 마세요.
+Worker 주소를 대시보드 첫 화면의 **보안 분석 서버 주소** 칸에 입력하고 **연결 저장**을 누르면 됩니다. 주소는 `https://<worker-name>.<account>.workers.dev` 형태입니다. 끝에 슬래시나 `/api`를 붙이지 마세요.
 
 ## 제공되는 조회
 
@@ -25,6 +25,6 @@ Worker 주소를 대시보드의 API 연결 설정에 입력하고 저장하면 
 ## 유의사항
 
 - VirusTotal API 이용 한도와 사용 조건은 계정 유형에 따라 달라질 수 있습니다. 공개 무료 API는 상용 서비스에 사용할 수 없으며 호출 제한도 있습니다.
-- 공개 웹사이트의 API 중계 주소는 타인이 호출할 수 있으므로 개인 분석용으로만 사용하고, 한도 초과 또는 키 오남용이 보이면 Worker Secret의 키를 교체하세요.
+- 공개 웹사이트의 API 중계 주소는 타인이 직접 호출할 수 있습니다. CORS는 브라우저 접근 제어일 뿐 인증 수단이 아니므로 이 구성은 개인 사용용입니다. VirusTotal 무료 API 호출량을 아끼고 키 오남용이 보이면 Worker Secret의 키를 교체하세요.
 - 민감한 파일이나 URL을 외부 분석 서비스에 제출하기 전에 조직의 정책과 개인정보·기밀 포함 여부를 확인하세요.
 - Worker 코드는 `worker/index.js`에서 관리합니다.
