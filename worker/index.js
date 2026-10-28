@@ -69,7 +69,10 @@ export default {
       if (!["http:", "https:"].includes(parsed.protocol)) {
         return json({ error: "Only http:// and https:// URLs are supported." }, 400, cors);
       }
-      const bytes = new TextEncoder().encode(value);\n      let binary = "";\n      bytes.forEach(byte => binary += String.fromCharCode(byte));\n      const id = btoa(binary).replace(/\\+/g, "-").replace(/\\//g, "_").replace(/=+$/g, "");
+      const bytes = new TextEncoder().encode(value);
+      let binary = "";
+      bytes.forEach(byte => binary += String.fromCharCode(byte));
+      const id = btoa(binary).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/g, "");
       path = "/urls/" + encodeURIComponent(id);
     }
 
