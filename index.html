@@ -33,7 +33,7 @@ body{background:var(--bg);color:var(--text);font-family:Arial,Pretendard,"Noto S
 .section-head{border-bottom:1px solid #e9e4da;padding-bottom:10px}
 .section-head h2{font-size:18px;letter-spacing:-.02em}
 .tag{color:#8a5918;background:#f6ecd9;border-radius:4px}
-.news{padding:15px 12px;border-bottom:1px solid #e9e4da;border-left:2px solid #e5a650}
+.news-group-title{font-size:13px;font-weight:700;color:#216d5e;margin:18px 0 4px;padding-top:12px;border-top:1px solid #e9e4da}.news{padding:15px 12px;border-bottom:1px solid #e9e4da;border-left:2px solid #e5a650}
 .news strong{font-size:15px}.news a{color:inherit;text-decoration:none}.news a:hover{text-decoration:underline}
 .news small,.threat small{color:#77776f}
 .threat{border-color:#e9e4da}
@@ -63,6 +63,7 @@ body{background:var(--bg);color:var(--text);font-family:Arial,Pretendard,"Noto S
 <div id="newsFeed" aria-live="polite">
 <div class="news"><strong>KISA 보호나라 RSS를 불러오고 있습니다.</strong><small>공식 보안공지 원문과 게시 시각을 표시합니다.</small></div>
 </div>
+<div class="news-group-title">보안뉴스</div><div id="boanNewsFeed" aria-live="polite"><div class="news"><strong>보안뉴스 RSS를 불러오고 있습니다.</strong></div></div>
 <div class="actions"><a href="https://www.cisa.gov/news-events/cybersecurity-advisories" target="_blank" rel="noreferrer">CISA 권고</a><a href="https://www.krcert.or.kr/" target="_blank" rel="noreferrer">KrCERT</a><a href="https://www.virustotal.com/" target="_blank" rel="noreferrer">VirusTotal</a></div></article>
 <article class="card"><div class="section-head"><h2>분석 모듈</h2><span class="tag">연동 전</span></div>
 <div class="threat"><div><strong>파일·해시 평판</strong><small>VirusTotal · 멀티엔진 결과 조회</small></div><span class="risk mid">대기</span></div>
@@ -101,23 +102,22 @@ $("saveApi").addEventListener("click", async () => {
 });
 if (initial) checkConnection(initial);
 
-async function loadNews(base) {
-  const sourceLabel = $("newsSource");
-  const feed = $("newsFeed");
-  const count = $("newsCount");
+async function loadNews(source, label, feedId, countId) {
+  const feed = $(feedId);
+  const count = countId ? $(countId) : null;
   try {
-    const response = await fetch(cleanBase(base) + "/api/news?source=kisa");
+    const response = await fetch(cleanBase(initial) + "/api/news?source=" + encodeURIComponent(source));
     if (!response.ok) throw new Error("피드 서버 응답 오류 (" + response.status + ")");
     const xml = new DOMParser().parseFromString(await response.text(), "application/xml");
     if (xml.querySelector("parsererror")) throw new Error("RSS 형식을 읽지 못했습니다.");
-    const items = Array.from(xml.querySelectorAll("item")).slice(0, 6);
+    const items = Array.from(xml.querySelectorAll("item")).slice(0, 5);
     feed.replaceChildren();
-    count.textContent = String(items.length);
+    if (count) count.textContent = String(items.length);
     if (!items.length) {
       const empty = document.createElement("div");
       empty.className = "news";
       const title = document.createElement("strong");
-      title.textContent = "표시할 보안공지가 없습니다.";
+      title.textContent = "표시할 뉴스가 없습니다.";
       empty.append(title);
       feed.append(empty);
     }
@@ -132,7 +132,8 @@ async function loadNews(base) {
       let safeLink = "";
       try {
         const link = new URL(linkText);
-        if (link.protocol === "https:" && (link.hostname === "boho.or.kr" || link.hostname.endsWith(".boho.or.kr"))) safeLink = link.href;
+        const hosts = source === "boannews" ? ["boannews.com"] : ["boho.or.kr"];
+        if (link.protocol === "https:" && hosts.some(host => link.hostname === host || link.hostname.endsWith("." + host))) safeLink = link.href;
       } catch {}
       if (safeLink) {
         const anchor = document.createElement("a");
@@ -146,27 +147,25 @@ async function loadNews(base) {
       }
       const small = document.createElement("small");
       const date = new Date(dateText);
-      small.textContent = "KISA 보호나라" + (dateText && !Number.isNaN(date.getTime()) ? " · " + date.toLocaleString("ko-KR") : "");
+      small.textContent = label + (dateText && !Number.isNaN(date.getTime()) ? " · " + date.toLocaleString("ko-KR") : "");
       row.append(small);
       feed.append(row);
     });
-    sourceLabel.textContent = "KISA 보호나라 RSS";
   } catch (error) {
-    count.textContent = "—";
-    sourceLabel.textContent = "RSS 연결 오류";
+    if (count) count.textContent = "—";
     feed.replaceChildren();
     const row = document.createElement("div");
     row.className = "news";
     const title = document.createElement("strong");
-    title.textContent = "보안공지를 불러오지 못했습니다.";
+    title.textContent = label + " 뉴스를 불러오지 못했습니다.";
     const detail = document.createElement("small");
-    detail.textContent = "Worker 배포 상태와 KISA RSS 연결을 확인해 주세요.";
+    detail.textContent = "Worker 배포 상태와 RSS 주소를 확인해 주세요.";
     row.append(title, detail);
     feed.append(row);
   }
 }
-loadNews(initial);
-
+loadNews("kisa", "KISA 보호나라", "newsFeed", "newsCount");
+loadNews("boannews", "보안뉴스", "boanNewsFeed");
 function detectType(value) {
   if (/^(?:[a-fA-F0-9]{32}|[a-fA-F0-9]{40}|[a-fA-F0-9]{64})$/.test(value)) return "hash";
   if (/^https?:\/\//i.test(value)) return "url";
