@@ -33,17 +33,18 @@ export default {
     }
     if (url.pathname === "/api/news") {
       const source = url.searchParams.get("source") || "kisa";
-      if (source !== "kisa") return json({ error: "Unsupported news source." }, 400, cors);
+      if (!["kisa", "boannews"].includes(source)) return json({ error: "Unsupported news source." }, 400, cors);
+      const feedUrl = source === "boannews" ? "https://cdn.boannews.com/rss/gn_rss_allArticle.xml" : KISA_RSS_URL;
       try {
-        const upstream = await fetch(KISA_RSS_URL, {
+        const upstream = await fetch(feedUrl, {
           headers: { accept: "application/rss+xml, application/xml, text/xml" },
         });
         if (!upstream.ok) {
-          return json({ error: "KISA RSS returned HTTP " + upstream.status }, 502, cors);
+          return json({ error: "" + source + " RSS returned HTTP " + upstream.status }, 502, cors);
         }
         const body = await upstream.text();
         if (body.length > 1_000_000) {
-          return json({ error: "KISA RSS response is too large." }, 502, cors);
+          return json({ error: "News RSS response is too large." }, 502, cors);
         }
         return new Response(body, {
           status: 200,
@@ -54,7 +55,7 @@ export default {
           },
         });
       } catch (error) {
-        return json({ error: "Unable to fetch KISA RSS." }, 502, cors);
+        return json({ error: "Unable to fetch news RSS." }, 502, cors);
       }
     }
     if (url.pathname !== "/api/lookup") {
