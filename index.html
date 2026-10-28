@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0a1020"><title>Sentinel | 보안 인텔리전스</title>
+<style>
+:root{color-scheme:dark;--bg:#090e1b;--panel:#111a2d;--line:#24314c;--muted:#91a0bb;--text:#edf3ff;--cyan:#4de0ce;--red:#ff687b;--amber:#f4c15d;--blue:#83a8ff}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% -10%,#1a3152 0,transparent 38%),var(--bg);color:var(--text);font:15px/1.55 Inter,Pretendard,"Noto Sans KR",system-ui,sans-serif}button,input{font:inherit}.shell{max-width:1440px;margin:auto;padding:24px 28px}.top{display:flex;align-items:center;justify-content:space-between;margin-bottom:30px}.brand{display:flex;align-items:center;gap:12px}.logo{width:42px;height:42px;display:grid;place-items:center;border:1px solid #31516c;border-radius:13px;color:var(--cyan);font-size:22px;background:#102133}.brand strong{font-size:18px;letter-spacing:.04em}.brand small,.sub,.muted{color:var(--muted)}.badge{color:var(--cyan);border:1px solid #27635f;background:#102b2a;padding:6px 11px;border-radius:999px;font-size:12px}.intro{margin-bottom:22px}.intro h1{font-size:clamp(27px,4vw,40px);line-height:1.2;margin:0 0 8px}.intro p{margin:0;color:var(--muted)}.search{display:flex;gap:10px;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:12px;margin:24px 0}.search input{flex:1;min-width:0;background:transparent;color:var(--text);border:0;outline:0;padding:8px 10px}.search input::placeholder{color:#73829c}.search button{border:0;border-radius:10px;padding:10px 18px;background:var(--cyan);color:#071417;font-weight:700;cursor:pointer}.hint{font-size:12px;color:var(--muted);margin:-16px 4px 22px}.grid{display:grid;gap:16px}.stats{grid-template-columns:repeat(4,minmax(0,1fr));margin-bottom:16px}.card{background:linear-gradient(145deg,#131e33,#101827);border:1px solid var(--line);border-radius:16px;padding:19px}.stat-label{font-size:13px;color:var(--muted)}.stat-value{font-size:28px;font-weight:750;margin:6px 0}.stat-foot{font-size:12px;color:var(--muted)}.dot{display:inline-block;width:8px;height:8px;border-radius:99px;background:var(--cyan);margin-right:7px}.columns{grid-template-columns:1.25fr .75fr}.section-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}.section-head h2{font-size:16px;margin:0}.tag{font-size:11px;color:var(--amber);background:#322918;padding:4px 8px;border-radius:99px}.threat{display:grid;grid-template-columns:1fr auto;gap:10px;padding:13px 0;border-bottom:1px solid #202b40}.threat:last-child{border:0}.threat strong{font-size:14px}.threat small{display:block;color:var(--muted);margin-top:3px}.risk{font-size:11px;padding:4px 8px;border-radius:7px;height:max-content;color:#ff9aa7;background:#3a1d2a}.risk.mid{color:#f4d38a;background:#392e1d}.news{padding:12px 0;border-bottom:1px solid #202b40}.news:last-child{border:0}.news strong{display:block;font-size:14px}.news small{color:var(--muted)}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.actions a{color:var(--cyan);text-decoration:none;border:1px solid #2b4755;border-radius:9px;padding:7px 10px;font-size:12px}.foot{margin:20px 2px;color:var(--muted);font-size:12px}.toast{display:none;margin:0 0 16px;color:var(--amber)}@media(max-width:900px){.stats{grid-template-columns:repeat(2,1fr)}.columns{grid-template-columns:1fr}}@media(max-width:480px){.shell{padding:18px 14px}.badge{display:none}.stats{gap:10px}.card{padding:15px}.stat-value{font-size:24px}.search button{padding:9px 12px}}
+</style>
+</head>
+<body><main class="shell">
+<header class="top"><div class="brand"><div class="logo">⌁</div><div><strong>SENTINEL</strong><br><small>SECURITY INTELLIGENCE</small></div></div><span class="badge">● 시스템 준비됨 · 데모 데이터</span></header>
+<section class="intro"><h1>보안 위협을 한눈에</h1><p>위협 지표를 조회하고 보안 이슈와 대응 정보를 모아보세요.</p></section>
+<form class="search" id="lookup"><input id="indicator" aria-label="분석 대상" placeholder="파일 해시, 도메인, IP 또는 URL 입력" autocomplete="off"><button>위협 조회</button></form>
+<div class="hint">현재 화면은 대시보드 시안입니다. 실제 조회를 위해 안전한 서버 API 연결이 필요합니다.</div><div class="toast" id="toast" role="status"></div>
+<section class="grid stats">
+<article class="card"><div class="stat-label">오늘 확인할 이슈</div><div class="stat-value">—</div><div class="stat-foot"><span class="dot"></span>뉴스 피드 연결 대기</div></article>
+<article class="card"><div class="stat-label">최근 분석 요청</div><div class="stat-value">—</div><div class="stat-foot">분석 API 연결 후 표시</div></article>
+<article class="card"><div class="stat-label">고위험 지표</div><div class="stat-value">—</div><div class="stat-foot">실제 평판 결과 미연결</div></article>
+<article class="card"><div class="stat-label">연동 상태</div><div class="stat-value" style="font-size:20px">준비 중</div><div class="stat-foot">API 키는 서버에 안전하게 보관</div></article>
+</section>
+<section class="grid columns">
+<article class="card"><div class="section-head"><h2>최근 보안 이슈</h2><span class="tag">샘플 콘텐츠</span></div>
+<div class="news"><strong>위협 뉴스 피드를 연결해 최신 이슈를 표시하세요</strong><small>출처와 게시 시각을 함께 저장하도록 설계</small></div>
+<div class="news"><strong>취약점·침해사고 공지 모니터링</strong><small>공식 보안 권고 및 공급자 공지 연동 예정</small></div>
+<div class="news"><strong>대응 가이드와 분석 결과 연결</strong><small>확인된 정보와 권고 조치를 분리해 제공</small></div>
+<div class="actions"><a href="https://www.cisa.gov/news-events/cybersecurity-advisories" target="_blank" rel="noreferrer">CISA 권고</a><a href="https://www.krcert.or.kr/" target="_blank" rel="noreferrer">KrCERT</a><a href="https://www.virustotal.com/" target="_blank" rel="noreferrer">VirusTotal</a></div></article>
+<article class="card"><div class="section-head"><h2>분석 모듈</h2><span class="tag">연동 전</span></div>
+<div class="threat"><div><strong>파일·해시 평판</strong><small>VirusTotal · 멀티엔진 결과 조회</small></div><span class="risk mid">대기</span></div>
+<div class="threat"><div><strong>URL·웹페이지 분석</strong><small>urlscan.io · 페이지 동작과 연결 도메인</small></div><span class="risk mid">대기</span></div>
+<div class="threat"><div><strong>IP·도메인 평판</strong><small>AbuseIPDB · 악성 신고 정보</small></div><span class="risk mid">대기</span></div>
+<div class="threat"><div><strong>위협 인텔리전스</strong><small>AlienVault OTX · 커뮤니티 IOC</small></div><span class="risk mid">대기</span></div>
+</article></section>
+<footer class="foot">분석 결과는 참고 정보이며 단일 엔진 점수만으로 악성 여부를 확정하지 않습니다. 수집한 파일·URL은 외부 분석 서비스에 제출되기 전 개인정보와 기밀 포함 여부를 확인하세요.</footer>
+</main><script>
+document.getElementById('lookup').addEventListener('submit',e=>{e.preventDefault();const v=document.getElementById('indicator').value.trim();const t=document.getElementById('toast');t.style.display='block';t.textContent=v?'아직 분석 API가 연결되지 않았습니다. 서버 연동 후 조회할 수 있어요.':'분석할 해시, 도메인, IP 또는 URL을 입력하세요.';});
+</script></body></html>
