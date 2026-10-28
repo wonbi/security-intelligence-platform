@@ -2,9 +2,48 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#0a1020"><title>Sentinel | 보안 인텔리전스</title>
+<meta name="theme-color" content="#f2efe8"><title>Sentinel | 보안 인텔리전스</title>
 <style>
 :root{color-scheme:dark;--bg:#090e1b;--panel:#111a2d;--line:#24314c;--muted:#91a0bb;--text:#edf3ff;--cyan:#4de0ce;--red:#ff687b;--amber:#f4c15d;--blue:#83a8ff}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% -10%,#1a3152 0,transparent 38%),var(--bg);color:var(--text);font:15px/1.55 Inter,Pretendard,"Noto Sans KR",system-ui,sans-serif}button,input{font:inherit}.shell{max-width:1440px;margin:auto;padding:24px 28px}.top{display:flex;align-items:center;justify-content:space-between;margin-bottom:30px}.brand{display:flex;align-items:center;gap:12px}.logo{width:42px;height:42px;display:grid;place-items:center;border:1px solid #31516c;border-radius:13px;color:var(--cyan);font-size:22px;background:#102133}.brand strong{font-size:18px;letter-spacing:.04em}.brand small,.sub,.muted{color:var(--muted)}.badge{color:var(--cyan);border:1px solid #27635f;background:#102b2a;padding:6px 11px;border-radius:999px;font-size:12px}.intro{margin-bottom:22px}.intro h1{font-size:clamp(27px,4vw,40px);line-height:1.2;margin:0 0 8px}.intro p{margin:0;color:var(--muted)}.search{display:flex;gap:10px;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:12px;margin:24px 0}.search input{flex:1;min-width:0;background:transparent;color:var(--text);border:0;outline:0;padding:8px 10px}.search input::placeholder{color:#73829c}.search button{border:0;border-radius:10px;padding:10px 18px;background:var(--cyan);color:#071417;font-weight:700;cursor:pointer}.hint{font-size:12px;color:var(--muted);margin:-16px 4px 22px}.grid{display:grid;gap:16px}.stats{grid-template-columns:repeat(4,minmax(0,1fr));margin-bottom:16px}.card{background:linear-gradient(145deg,#131e33,#101827);border:1px solid var(--line);border-radius:16px;padding:19px}.stat-label{font-size:13px;color:var(--muted)}.stat-value{font-size:28px;font-weight:750;margin:6px 0}.stat-foot{font-size:12px;color:var(--muted)}.dot{display:inline-block;width:8px;height:8px;border-radius:99px;background:var(--cyan);margin-right:7px}.columns{grid-template-columns:1.25fr .75fr}.section-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}.section-head h2{font-size:16px;margin:0}.tag{font-size:11px;color:var(--amber);background:#322918;padding:4px 8px;border-radius:99px}.threat{display:grid;grid-template-columns:1fr auto;gap:10px;padding:13px 0;border-bottom:1px solid #202b40}.threat:last-child{border:0}.threat strong{font-size:14px}.threat small{display:block;color:var(--muted);margin-top:3px}.risk{font-size:11px;padding:4px 8px;border-radius:7px;height:max-content;color:#ff9aa7;background:#3a1d2a}.risk.mid{color:#f4d38a;background:#392e1d}.news{padding:12px 0;border-bottom:1px solid #202b40}.news:last-child{border:0}.news strong{display:block;font-size:14px}.news small{color:var(--muted)}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.actions a{color:var(--cyan);text-decoration:none;border:1px solid #2b4755;border-radius:9px;padding:7px 10px;font-size:12px}.foot{margin:20px 2px;color:var(--muted);font-size:12px}.toast{display:none;margin:0 0 16px;color:var(--amber)}@media(max-width:900px){.stats{grid-template-columns:repeat(2,1fr)}.columns{grid-template-columns:1fr}}@media(max-width:480px){.shell{padding:18px 14px}.badge{display:none}.stats{gap:10px}.card{padding:15px}.stat-value{font-size:24px}.search button{padding:9px 12px}}
+
+/* Editorial briefing theme */
+:root{color-scheme:light;--bg:#f2efe8;--panel:#fffdf9;--line:#dfd8cb;--muted:#77776f;--text:#202923;--cyan:#177c69;--red:#bd493d;--amber:#a45d16;--blue:#355d79}
+body{background:var(--bg);color:var(--text);font-family:Arial,Pretendard,"Noto Sans KR",sans-serif}
+.shell{max-width:1280px;padding:30px 34px}
+.top{padding:0 0 20px;border-bottom:1px solid #d6d0c4;margin-bottom:36px}
+.logo{border:0;border-radius:7px;background:#1e382f;color:#f0b25f}
+.brand strong{letter-spacing:.12em}
+.brand small{letter-spacing:.16em;font-size:10px}
+.badge{color:#765018;border-color:#e4d3ae;background:#f7eedb;border-radius:4px}
+.intro{margin-bottom:28px}
+.intro h1{font-size:clamp(32px,4vw,46px);letter-spacing:-.045em}
+.intro p{color:#666960}
+.search{background:#fffdf9;border-color:#d9d1c4;border-radius:9px;box-shadow:0 5px 20px #45341a0b;margin:24px 0;padding:10px}
+.search input{color:#202923}
+.search input::placeholder{color:#929087}
+.search button{background:#e5a650;color:#252219;border-radius:6px}
+.hint{color:#77776f;margin-top:-16px}
+.grid{gap:14px}
+.stats{margin-bottom:14px}
+.card{background:#fffdf9;border:1px solid #e0d9cd;border-radius:9px;padding:21px;box-shadow:0 5px 18px #473b2708}
+.stat-label{color:#72756c}
+.stat-value{color:#213a30;font-size:32px}
+.stat-foot{color:#77776f}
+.dot{background:#177c69}
+.section-head{border-bottom:1px solid #e9e4da;padding-bottom:10px}
+.section-head h2{font-size:18px;letter-spacing:-.02em}
+.tag{color:#8a5918;background:#f6ecd9;border-radius:4px}
+.news{padding:15px 12px;border-bottom:1px solid #e9e4da;border-left:2px solid #e5a650}
+.news strong{font-size:15px}
+.news small,.threat small{color:#77776f}
+.threat{border-color:#e9e4da}
+.risk{color:#9d3c35;background:#f7e7e2;border-radius:4px}
+.risk.mid{color:#805719;background:#f5eddc}
+.actions a{color:#216d5e;border-color:#c8d8cf;border-radius:5px;background:#f6faf6}
+.foot{color:#74746d;border-top:1px solid #d9d3c8;padding-top:14px}
+.toast{color:#8a5918}
+@media(max-width:480px){.shell{padding:18px 14px}.card{padding:16px}}
+
 </style>
 </head>
 <body><main class="shell">
