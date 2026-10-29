@@ -1,4 +1,4 @@
-const fs = require("node:fs/promises");
+import { writeFile } from "node:fs/promises";
 
 const feeds = [
   {
@@ -76,5 +76,5 @@ const payload = {
   items: results.slice(0, 20),
   errors
 };
-await fs.writeFile("news.json", JSON.stringify(payload, null, 2) + "\n");
+await writeFile("news.json", JSON.stringify(payload, null, 2) + "\n");
 console.log("news.json updated:", results.length, "items", errors.length ? errors.join(" | ") : "");
