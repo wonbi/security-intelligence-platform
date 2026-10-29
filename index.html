@@ -102,70 +102,73 @@ $("saveApi").addEventListener("click", async () => {
 });
 if (initial) checkConnection(initial);
 
-async function loadNews(source, label, feedId, countId) {
-  const feed = $(feedId);
-  const count = countId ? $(countId) : null;
+async function loadNewsFeed() {
+  const feedDataUrl = new URL("news.json", document.baseURI).href;
   try {
-    const response = await fetch(cleanBase(initial) + "/api/news?source=" + encodeURIComponent(source));
-    if (!response.ok) throw new Error("피드 서버 응답 오류 (" + response.status + ")");
-    const xml = new DOMParser().parseFromString(await response.text(), "application/xml");
-    if (xml.querySelector("parsererror")) throw new Error("RSS 형식을 읽지 못했습니다.");
-    const items = Array.from(xml.querySelectorAll("item")).slice(0, 5);
-    feed.replaceChildren();
-    if (count) count.textContent = String(items.length);
-    if (!items.length) {
-      const empty = document.createElement("div");
-      empty.className = "news";
-      const title = document.createElement("strong");
-      title.textContent = "표시할 뉴스가 없습니다.";
-      empty.append(title);
-      feed.append(empty);
-    }
-    items.forEach(item => {
-      const titleText = item.querySelector("title")?.textContent?.trim() || "제목 없음";
-      const linkText = item.querySelector("link")?.textContent?.trim() || "";
-      const dateText = item.querySelector("pubDate")?.textContent?.trim() || "";
-      const row = document.createElement("div");
-      row.className = "news";
-      const title = document.createElement("strong");
-      title.textContent = titleText;
-      let safeLink = "";
-      try {
-        const link = new URL(linkText);
-        const hosts = source === "boannews" ? ["boannews.com"] : ["boho.or.kr"];
-        if (link.protocol === "https:" && hosts.some(host => link.hostname === host || link.hostname.endsWith("." + host))) safeLink = link.href;
-      } catch {}
-      if (safeLink) {
-        const anchor = document.createElement("a");
-        anchor.href = safeLink;
-        anchor.target = "_blank";
-        anchor.rel = "noopener noreferrer";
-        anchor.append(title);
-        row.append(anchor);
-      } else {
-        row.append(title);
-      }
-      const small = document.createElement("small");
-      const date = new Date(dateText);
-      small.textContent = label + (dateText && !Number.isNaN(date.getTime()) ? " · " + date.toLocaleString("ko-KR") : "");
-      row.append(small);
-      feed.append(row);
-    });
+    const response = await fetch(feedDataUrl, {cache: "no-store"});
+    if (!response.ok) throw new Error("뉴스 데이터 응답 오류 (" + response.status + ")");
+    const payload = await response.json();
+    const items = Array.isArray(payload.items) ? payload.items : [];
+    renderNews(items.filter(item => item.source === "kisa"), "KISA 보호나라", $("newsFeed"), $("newsCount"));
+    renderNews(items.filter(item => item.source === "boannews"), "보안뉴스", $("boanNewsFeed"));
+    const updated = payload.updatedAt ? new Date(payload.updatedAt).toLocaleString("ko-KR") : "아직 업데이트 전";
+    $("newsSource").textContent = "정기 RSS 업데이트 · " + updated;
   } catch (error) {
-    if (count) count.textContent = "—";
-    feed.replaceChildren();
+    renderNewsError("KISA 보호나라", $("newsFeed"), $("newsCount"));
+    renderNewsError("보안뉴스", $("boanNewsFeed"));
+    $("newsSource").textContent = "RSS 파일 준비 중";
+  }
+}
+
+function renderNews(items, label, feed, count) {
+  feed.replaceChildren();
+  if (count) count.textContent = String(items.length);
+  if (!items.length) {
     const row = document.createElement("div");
     row.className = "news";
     const title = document.createElement("strong");
-    title.textContent = label + " 뉴스를 불러오지 못했습니다.";
-    const detail = document.createElement("small");
-    detail.textContent = "Worker 배포 상태와 RSS 주소를 확인해 주세요.";
-    row.append(title, detail);
+    title.textContent = label + "에 표시할 최신 뉴스가 없습니다.";
+    row.append(title);
     feed.append(row);
+    return;
   }
+  items.slice(0, 5).forEach(item => {
+    const row = document.createElement("div");
+    row.className = "news";
+    const title = document.createElement("strong");
+    title.textContent = item.title || "제목 없음";
+    if (item.link) {
+      const anchor = document.createElement("a");
+      anchor.href = item.link;
+      anchor.target = "_blank";
+      anchor.rel = "noopener noreferrer";
+      anchor.append(title);
+      row.append(anchor);
+    } else {
+      row.append(title);
+    }
+    const small = document.createElement("small");
+    const date = item.published ? new Date(item.published) : null;
+    small.textContent = label + (date && !Number.isNaN(date.getTime()) ? " · " + date.toLocaleString("ko-KR") : "");
+    row.append(small);
+    feed.append(row);
+  });
 }
-loadNews("kisa", "KISA 보호나라", "newsFeed", "newsCount");
-loadNews("boannews", "보안뉴스", "boanNewsFeed");
+
+function renderNewsError(label, feed, count) {
+  if (count) count.textContent = "—";
+  feed.replaceChildren();
+  const row = document.createElement("div");
+  row.className = "news";
+  const title = document.createElement("strong");
+  title.textContent = label + " 뉴스를 아직 준비하지 못했습니다.";
+  const detail = document.createElement("small");
+  detail.textContent = "GitHub Actions RSS 업데이트가 완료되면 자동으로 표시됩니다.";
+  row.append(title, detail);
+  feed.append(row);
+}
+
+loadNewsFeed();
 function detectType(value) {
   if (/^(?:[a-fA-F0-9]{32}|[a-fA-F0-9]{40}|[a-fA-F0-9]{64})$/.test(value)) return "hash";
   if (/^https?:\/\//i.test(value)) return "url";
