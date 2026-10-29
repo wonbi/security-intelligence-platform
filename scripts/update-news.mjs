@@ -49,7 +49,7 @@ async function readFeed(feed) {
   const response = await fetch(feed.url, { headers: { "user-agent": "security-intelligence-platform RSS updater" } });
   if (!response.ok) throw new Error(feed.label + " 응답 오류: " + response.status);
   const xml = await response.text();
-  const blocks = xml.match(/<item(?:\\s[^>]*)?>[\\s\\S]*?<\\/item>/gi) || [];
+  const blocks = xml.match(/<item[\s\S]*?<\/item>/gi) || [];
   return blocks.slice(0, 10).map(block => ({
     source: feed.source,
     sourceLabel: feed.label,
