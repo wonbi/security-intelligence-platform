@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T00:45:44.620Z",
+  "updatedAt": "2026-11-02T11:08:53.658Z",
   "sources": [
     {
       "source": "boannews",
@@ -16,82 +16,106 @@
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "소스 코드 속에 박힌 열쇠 하나... 애플비, 앱에 남긴 비밀번호로 회원 정보 노출",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=146914",
-      "published": "2026-11-02 09:30:00",
-      "description": "외식 체인 애플비의 모바일 앱에 내부 고객 데이터베이스 비밀번호가 그대로 들어 있어, 앱을 가진 사람이면 누구나 회원 정보를 꺼내 볼 수 있었다고 테크크런치가 단독 보도했다. 애플비는 문제를 고쳤다고 확인했다.결함은 로버트 위긴스(Robert Wiggins) 왓시큐리티(What Security) 연구원이 찾았다. 영국에 있는 위긴스는 이달 들어 AI의 도움을 받아 다운로드 100만회가 넘는 애플비 안드로이드 앱의 소스 코드 수"
+      "title": "AI가 뚫어낸 리눅스 커널... 우분투에 치명적 제로클릭 원격 실행 취약점 경보",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=146897",
+      "published": "2026-11-02 19:00:00",
+      "description": "AI가 클라우드와 서버의 뼈대인 리눅스 커널 네트워킹 스택의 심층 취약점을 스스로 찾아내고, 원격에서 사용자 개입 없이 시스템 최고 관리자(root) 권한을 탈취하는 ‘제로클릭’(Zero-click) 공격 체인을 완성해 보안 업계에 충격을 주고 있다.글로벌 오픈소스 리눅스 배포판 ‘우분투’(Ubuntu) 개발사 캐노니컬과 미국 국립표준기술연구원(NIST)은 최근 리눅스 커널의 네트워크 메모리 관리 결함 ‘CVE-2026-984"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "인텔리빅스, 코스닥 상장 첫날 공모가 대비 244% 급등하며 화려한 입성",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=146916",
-      "published": "2026-11-02 09:27:20",
-      "description": "안전 인공지능(AI) 딥테크 전문기업 인텔리빅스(대표 장정훈)가 코스닥 상장 첫날 공모가 대비 244.44% 급등을 기록하며 자본시장에 화려하게 입성했다. 회사는 이번 상장을 통해 확보한 자금을 차세대 AI 기술 고도화와 신사업, 해외시장 확대에 집중 투입해 글로벌 안전 AI 선도 기업으로 도약할 방침이다.인텔리빅스는 10월 30일 서울 영등포구 한국거래소에서 상장기념식을 열고 코스닥 시장에서 본격적인 거래를 시작했다. 이날 "
+      "title": "미리보기 한 번에 비공개 대화까지...챗GPT 공유 링크 결함, 8일 만에 수정",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=146919",
+      "published": "2026-11-02 18:00:00",
+      "description": "챗GPT 공유 링크 하나로 공격자 코드가 피해자 계정에서 실행돼 비공개 대화까지 읽어 갈 수 있던 결함이 드러났다. 오픈AI는 신고 8일 만에 결함을 고쳤다.보안 기업 파라미터(Parameter)는 10월 18일 오픈AI 버그바운티로 이 문제를 신고했다. 오픈AI는 처음엔 두 번째 등급(P2)으로 분류했다가 직접 재현한 뒤 가장 심각한 등급인 P1로 올렸다. 26일까지 웹 화면 두 버전 모두에 수정을 적용했고, 파라미터는 수정"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "라이트LLM, 악성코드 감염 경로에 '클로드 코드' 의혹…AI 개발 도구 보안 허점",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=146684",
-      "published": "2026-11-01 16:00:00",
-      "description": "인공지능(AI) 개발 도구 라이트LLM(LiteLLM)의 공식 배포 버전에 악성코드가 삽입된 사건에서 개발자 인증정보가 공격에 악용된 정황이 드러났다. 회사는 AI 코딩 도구 클로드 코드(Claude Code)의 응답이 내부 시스템 로그에 기록되는 과정에서 깃허브 인증 토큰이 노출됐을 가능성을 조사하고 있다. 공격자들은 확보한 권한으로 코드 보호 설정을 해제하고 악성 파일이 포함된 패키지를 정상적인 배포 절차를 거쳐 공개한 것"
+      "title": "조달청, 11월 한 달간 무분별입찰 집중 신고 기간 운영하며 불공정 행위 근절",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=146935",
+      "published": "2026-11-02 17:30:25",
+      "description": "조달청(청장 백승보)이 조달기업의 정당한 낙찰 기회를 보장하고 공정한 경쟁 환경을 조성하기 위해 11월 30일까지 ‘무분별입찰 집중 신고 기간’을 운영한다고 발표했다.이번 집중 신고 기간은 사업자등록만 마친 뒤 낙찰을 받아 브로커 등을 통해 물품을 납품하고 수수료만 챙기는 등 실제 공급 능력이 없는 부실 업체들을 공공조달시장에서 차단하기 위해 추진된다.신고 대상은 조달청과 계약을 체결한 후 직접 이행하지 않는 계약상대자와, 낙"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "바이낸스 탈취 자산, 북한이 털었던 비트겟 탈취 자산과 섞였다",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=146912",
-      "published": "2026-11-01 14:00:57",
-      "description": "역대 최대 규모의 가상자산 탈취 사건인 바이낸스(Binance) 해킹 사건에서 탈취된 자산이 지난달 발생한 비트겟(Bitget) 해킹 사건의 자금과 실시간으로 섞이는 정황이 발견됐다. 비트겟 해킹 역시 북한의 소행으로 지목된 사건이다.보안기업 체이널리시스는 현지 시각 30일 보고서를 통해 이번 바이낸스 해킹 공격의 전개 과정과 유출된 자금의 흐름을 분석했다.이번 공격은 10월 29일 미국 동부 시간으로 오후 4시 20분경 시작"
+      "title": "성남시, 2026 스마트도시 특화단지 조성사업 업무협약 체결 및 본격 착수",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=146932",
+      "published": "2026-11-02 17:30:00",
+      "description": "성남시(시장 신상진)가 지난 10월 29일 오후 ‘2026년 스마트도시 특화단지 조성사업’의 성공적 추진을 위해 10개 관계기관과 업무협약을 맺고 사업 착수보고회를 개최했다고 밝혔다.이번 사업은 지난 6월 국토교통부 공모에 성남시가 최종 선정됨에 따라 마련됐다. 협약식에는 성남시를 필두로 차세대융합기술연구원, 분당서울대학교병원, 카카오헬스케어, 가천대학교 등 총 10개 산·학·연·관이 참석해 상호 협조 체계 구축을 다짐했다.성"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "[한국정보보호학회 칼럼] AI 시대의 금융보안, 망분리에서 제로트러스트로",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=146911",
-      "published": "2026-11-01 10:41:19",
-      "description": "2026년 9월 30일부터 10월 3일까지 신한은행, KB국민은행, 하나은행, BNK부산은행에 이어 예가람저축은행, 웰컴저축은행, 현대캐피탈까지 총 7개의 금융회사에서 짧은 기간 동안 보안사고가 잇따라 발생했다. 인터넷·모바일뱅킹 등 대고객 서비스에는 영향이 없었지만, 정보조회 서비스와 직원 업무지원 서비스 등 부가시스템에서 정보유출이 발생했다. 사고 유형별로는 본인확인 절차 누락, 직원용 모바일 단말기의 접근통제 미흡, 웹 "
+      "title": "“AI 도구와 공급망 결함에 방어 시차 붕괴”... OWASP, 10월 보안사고 톺아봐",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=146938",
+      "published": "2026-11-02 17:15:00",
+      "description": "AI 침투 도구의 보편화와 오픈소스 핵심 엔진 취약점, 공급망 계정 유출이 한 달 새 동시다발로 터져 나오며 기업 보안 조직의 대응 체계가 한계 시험대에 올랐다.국제 웹 보안 표준화 기구 OWASP 한국 지부인 OWASP 서울 챕터는 지난달 30일 서울 역삼동 디캠프 선릉에서 ‘최신 보안사고 톺아보기 그리고 이야기 해보기’를 주제로 정기 세미나를 개최했다. 발표자로 나선 김동현 크리밋 대표는 10월 한 달간 국내외를 강타한 주"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "LGU+-교육부-티오리한국, AI·정보보호 영재교육원 교육과정 고도화 나선다",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=146910",
-      "published": "2026-11-01 10:06:01",
-      "description": "LG유플러스는 교육부와 사이버보안 전문기업 티오리한국과 함께 AI 시대 정보보안 전문가 육성에 나선다고 밝혔다. 최근 AI 발전과 전방위적 해킹 이슈로 사이버보안의 중요성이 커지면서, LG유플러스가 보유한 보안 전문성과 네트워크·AI 인프라를 활용해 미래 보안 인재의 실전 역량을 키우겠다는 의지다.지난 10월 31일, LG유플러스와 교육부, 티오리한국은 서울 강서구 LG사이언스파크에서 ‘AI·정보보호 영재교육원 운영 지원을 위"
+      "title": "‘한방에 8조원’ 바이낸스 해킹... ‘격리’와 ‘권한관리’ 경각심↑",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=146940",
+      "published": "2026-11-02 17:10:00",
+      "description": "20분만에 10개 블록체인이 털리며 8조원이 넘는 피해가 발생한 바이낸스 해킹 사고로 ‘격리’와 ‘권한관리’, ‘엔드포인트 보안’의 중요성이 크게 부각되고 있다.위협인텔리전스 기업 SOC레이더(SOCRadar)는 바이낸스 해킹 사태의 전말을 분석한 보고서를 통해 “서명 경로를 블록체인 네트워크별로 격리하고, 개발자와 운영자들의 단말기를 ‘티어제로’(Tier-Zero, 최상위 보안 자산)으로 관리해야 한다”고 제언했다.‘한꺼번에"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "[배종찬의 보안 빅데이터] 북한 지뢰도발보다 더 경악할 북한 사이버 해킹",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=146886",
-      "published": "2026-11-01 09:49:00",
-      "description": "최근 안보 지형은 눈에 보이는 물리적 국경을 넘어 눈에 보이지 않는 사이버 공간으로 급격히 확장되고 있다. 특히 국가 주요 인프라와 금융망을 노린 지능형 사이버 공격은 이제 단순한 해킹 시도를 넘어 국가의 존립과 국민의 삶을 흔드는 중대한 안보 위협으로 떠올랐다. 빅데이터 플랫폼 썸트렌드(SomeTrend)가 지난달 19일부터 28일까지 집계한 빅데이터 연관어 분석 결과에 따르면, 최근 가장 뜨겁게 떠오른 핵심 키워드는 ‘북한"
+      "title": "[더존비즈온 사태] “계약 끝난 지 11개월 지났는데”…성현회계법인 개인정보 유출 가능성",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=146941",
+      "published": "2026-11-02 17:02:54",
+      "description": "BDO성현회계법인(성현회계법인)에서 더존비즈온 침해사고 관련 개인정보 유출 가능성이 제기됐다. 성현회계법인은 더존비즈온과 계약이 지난해 말 끝났음에도 불구하고 11개월이 지났음에도 개인정보가 유출됐을 가능성이 나왔다. 성현회계법인은 지난달 30일 ‘개인정보 유출 가능성 안내’ 공지사항을 통해 “고객사 업무 대행 서비스를 담당하는 일부 부서가 과거 이용했던 더존비즈온의 데이터 백업 서비스(APO)와 관련해 외부 침해로 인한 개인"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "美 FBI, ‘8.4조원’ 바이낸스 해킹 공식 수사 돌입... 트럼프 “北 소행 여부 주시 중”",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=146909",
-      "published": "2026-10-31 16:30:00",
-      "description": "세계 최대 가상자산 거래소 바이낸스(Binance)에서 발생한 63억달러(한화 약 8조4000억원) 규모의 역대급 해킹 사건에 대해 미국 연방수사국(FBI)이 공식 수사에 돌입했다. 도널드 트럼프 미국 대통령 역시 사태를 예의주시하고 있다고 밝히면서, 이번 사건의 유력한 배후로 지목된 북한 해킹 조직에 대한 미국 정부 차원의 대대적인 압박과 후속 조치가 본격화될 전망이다.사상 최대 해킹에 미 수사당국 총출동... “자금 흐름 "
+      "title": "[더존비즈온 사태] 급여 계좌부터 가족 주민번호까지... 더존비즈온 해킹이 ‘중대 사고’인 이유",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=146948",
+      "published": "2026-11-02 17:01:39",
+      "description": "더존비즈온이 두 차례 해킹으로 고객사 개인정보가 유출됐을 가능성이 알려지면서 과학기술정보통신부와 한국인터넷진흥원이 민관합동조사단을 구성한 지 일주일이 지났다. 당시 과기정통부는 더존비즈온 해킹을 ‘중대한 사고’로 판단하고 통신 3사와 쿠팡, 티빙에 이어 민관합동조사단을 구성했다고 밝혔다.그렇다면 더존비즈온 해킹 사건은 왜 민관합동조사단을 꾸릴 정도로 ‘중대 사고’로 꼽힐까? 그 이유를 알려면 먼저 공격당한 서비스와 그 서비스에"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "한국 기업 최다 타격 랜섬웨어 ‘논’, 공격 위한 AI에만 월 1000만원 썼다",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=146900",
-      "published": "2026-10-31 14:20:00",
-      "description": "신생 랜섬웨어 조직 ‘논’(N0n)이 올해 누적 기준 한국 기업을 가장 많이 공격한 것으로 집계됐다. 자동화된 랜섬웨어 공격을 위해 AI에만 1000만원에 달하는 비용을 들인 것으로 확인됐다. 논 랜섬웨어는 전 세계에서 가장 많은 공격을 시도한 ‘킬린’(Qilin)보다도 한국 기업을 더 많이 공격했다. 글로벌 사이버 보안 기업 SOC레이더(SOCRadar) 위협 연구팀이 발표한 ‘n0n 랜섬웨어: AI 지원 협박 작전의 실상’"
+      "title": "[부고] 채연근 징코스테크놀러지 대표 빙모상",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=146942",
+      "published": "2026-11-02 16:34:25",
+      "description": "△내용: 채연근 징코스테크놀러지 대표 빙모상△고인: 故 조상연 님(향년 91세)△빈소: 중앙대학교병원장례식장 6호실△발인: 2026년 11월 04일△장지: 전북 임실선영"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "전화 받고 30초 뒤 해킹... 텔레그램 안드로이드 통화 결함 4년 넘게 남아",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=146880",
-      "published": "2026-10-31 14:00:00",
-      "description": "안드로이드용 텔레그램에서 걸려 온 음성통화를 받기만 해도 공격자가 휴대폰에서 코드를 실행할 수 있는 결함이 공개됐다. 보안 스타트업 네뷰섹(NebuSec)은 29일(현지시각) 이 결함을 공개했다. 공격자에게 필요한 것은 평범한 텔레그램 계정 하나뿐이었다. 텔레그램은 9월 말 배포한 12.10.4 버전에서 이를 고쳤다.네뷰섹 공동창업자 겸 최고경영자는 8.6.2~12.10.3 모든 버전에서 결함이 작동한다고 밝혔다. 이 버전들은"
+      "title": "보안인들의 네트워크 축제  ‘제6회 더 시큐리티컵 골프대회’ 성황리 개최",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=146939",
+      "published": "2026-11-02 16:02:17",
+      "description": "국내 보안 분야 종사자들의 소통과 인적 네트워크 강화를 위한 ‘제6회 더 시큐리티컵 골프대회’(THE SECURITY CUP 2026)가 지난 10월 30일 강원도 원주시 센추리21CC에서 성황리에 개최됐다.이번 행사는 국내 최대 보안 전문 매체 보안뉴스와 보안 종합 월간지 시큐리티월드, 더비엔, 인포마마켓비엔이 공동 주최했다. 아울러 한국정보보호최고책임자협의회, 한국정보보호산업협회, 한국첨단안전산업협회, 한국재난안전산업협회,"
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "TeamViewer 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72264",
+      "published": "2026-11-02",
+      "description": ""
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "Ivanti 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72263",
+      "published": "2026-11-02",
+      "description": ""
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "WordPress 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72262",
+      "published": "2026-11-02",
+      "description": ""
     },
     {
       "source": "kisa",
@@ -147,30 +171,6 @@
       "title": "Cisco 제품 보안 업데이트 권고",
       "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72255",
       "published": "2026-10-30",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "Synology 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72254",
-      "published": "2026-10-30",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "Palo Alto Networks 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72252",
-      "published": "2026-10-29",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "Synology 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72251",
-      "published": "2026-10-29",
       "description": ""
     }
   ],
