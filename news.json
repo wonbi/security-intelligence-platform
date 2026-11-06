@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T06:47:37.300Z",
+  "updatedAt": "2026-11-06T16:47:01.274Z",
   "sources": [
     {
       "source": "boannews",
@@ -13,6 +13,62 @@
     }
   ],
   "items": [
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "이후기 건양대 교수, 한국융합보안학회 14대 회장 선출",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147083",
+      "published": "2026-11-07 00:51:52",
+      "description": "이후기 건양대 스마트보안학과 교수가 6일 한국융합보안학회 14대 회장으로 선출됐다.한국융합보안학회는 국내 사이버보안 및 융합보안 분야 학술 연구와 기술 발전, 산·학·연·군 협력을 선도하는 전문 학술단체다. 2001년 출범 이후 학술등재지 '융합보안논문지'를 발간하며 국가 보안 연구 역량 강화와 정보보호 전문인재 양성에 기여해 왔다.이후기 신임 회장은 학회 부회장, 감사, 상임이사 등 주요 보직을 두루 역임하며 학술 연구 활성"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "‘사칭’이라던 자비스, 실제 뚫렸다... 공동인증서·결제 정보 등 유출  확인",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147080",
+      "published": "2026-11-07 00:43:52",
+      "description": "해커가 사칭 메일을 발송한 것으로 의심돼 서비스를 중단했던 기업용 AI 세무·경리 서비스 ‘자비스’(Jobis)에서, 실제로 외부 해커의 불법 침입을 받아 개인정보가 유출된 정황이 확인됐다.자비스 운영사인 세무법인 에스브이는 외부 해커의 불법 접근으로 자비스 서비스에 저장된 고객 개인정보가 유출된 사실(또는 유출 가능성)을 확인했다고 6일 밝혔다.앞서 이 회사는 5일 외부 해커가 자비스를 사칭해 허위 유출 안내 메일을 보냈다며"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "최정식 한국정보처리학회 신임 회장 내년 1월 임기 시작",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147082",
+      "published": "2026-11-07 00:36:07",
+      "description": "최정식 보안뉴스·인더스트리뉴스 회장이 내년 1월 한국정보처리학회(KIPS) 회장에 취임한다. 임기는 내년 1월부터 12월까지 1년이다. 최 회장은 6일 세종대에서 열린 한국정보처리학회 총회에서 “인공지능을 비롯한 디지털 기술이 산업과 사회 전반을 빠르게 바꾸는 시대를 맞아 학문과 산업을 연결하고 기술이 나아갈 방향을 함께 모색하는 우리 학회의 역할은 더욱 중요해지고 있다”며 “학계와 산업계의 연결을 강화하고 젊은 연구자와 현장"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "인간 빠진 피지컬 AI 시대, 안전의 정의는?... 한국정보처리학회, 연례 학술행사 ‘ACK 2026’ 개최",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147076",
+      "published": "2026-11-07 00:36:02",
+      "description": "“테슬라 차량과 구글 웨이모 차량이 자율주행 중 충돌하는 사고가 난다면 책임 소재를 어떻게 따질 수 있을까요?”김용대 KAIST ICT 석좌교수는 6일 서울 세종대에서 열린 한국정보처리학회 연례 ‘ACK 2026’ 학술대회에서 ‘피지컬 AI의 보안’(Securing Physical AI)를 주제로 기조발표에 나서 “AI 기반 시스템이 도입되면서 드론이나 차량의 사고 원인을 분석하고 설명 가능성을 확보하기 더 어려워졌다”며 “피"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "[단독] 랜섬웨어 조직 ‘인크랜섬’, 파낙스 그룹·욱성화학 해킹 주장",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147079",
+      "published": "2026-11-06 17:47:12",
+      "description": "랜섬웨어 조직 ‘인크랜섬’(Inc ransom)이 부산 소재 중견 정밀화학 기업 파낙스 그룹 모회사인 욱성화학과 자회사 등의 내부 디지털 인프라 전체를 해킹했다는 주장이 나왔다. 해커는 단순 임직원 개인정보를 넘어 SCADA·산업 제어 시스템 (ICS), 원자력 인프라, 정부 포털 접근 권한, 금융 관련 데이터 등을 탈취했다고 주장하고 있다. 5일  취재를 종합하면, 인크랜섬은 자신들의 다크웹 유출 전용 사이트(DLS)에 파낙"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "“자동화-여력-투자”... 토스 가디언즈 26이 던진 세 가지 질문",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147078",
+      "published": "2026-11-06 16:45:17",
+      "description": "“위험을 제로(0)로 만드는 가장 쉬운 방법은 새로운 시도를 막는 것입니다. 하지만 막으면 잠깐 안전해 보일 뿐 회사는 멈추고, 현업은 우회로를 찾아 결국 보안팀은 가시성을 잃게 됩니다.”지정호 토스 정보보호최고책임자(CISO)가 6일 서울 강남구 코엑스에서 열린 자체 보안 콘퍼런스 ‘가디언즈 26’(GUARDIANS 26)에서 밝힌 토스의 보안 철학이다.모바일 금융 서비스 토스를 운영하는 비바리퍼블리카는 ‘혁신을 가능하게 하"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "CISA, 워드프레스 핵심 결함 실제 악용 공식 확인",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147020",
+      "published": "2026-11-06 15:11:05",
+      "description": "미국 사이버보안·인프라보안청(CISA)이 워드프레스 핵심 프로그램의 결함(CVE-2026-119977)이 실제 공격에 쓰이고 있다고 확인했다. 웹사이트를 업데이트하는 짧은 순간을 노리는 결함이다.CISA는 이 결함을 실제 악용 취약점(KEV) 목록에 올렸다. 워드프레스는 웹사이트를 만들고 관리하는 데 쓰는 프로그램이다. 결함은 높은 등급으로 분류됐고, 패치는 10월 말 나왔다.SA 설명에 따르면 핵심 프로그램 전체를 새 버전으"
+    },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
@@ -38,60 +94,36 @@
       "description": "인공지능(AI)과 데이터가 미래 전장의 핵심 자산으로 부상한 가운데, 방위산업 분야의 AI 전력화와 데이터 보안 체계를 논의하는 정책 토론이 열렸다. 제12회 방산기술보호 및 보안 세미나 메인 세션으로 진행된 ‘방산 AI 및 데이터 보안’ 토론회에서는 군, 정부, 학계, 방산업계 전문가들이 참여해 국방 AI 정책 방향과 데이터 보호 전략을 집중 논의했다.첫 번째 발제에 나선 차동균 방위사업청 방위사업 AI기획담당관실 총괄은 ‘"
     },
     {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "방산 AIDC 구축과 기술보호로 K-방산의 미래를 열다",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147071",
-      "published": "2026-11-06 14:14:42",
-      "description": "방위산업기술보호법 시행 10주년을 맞은 대한민국 방위산업이 ‘인공지능(AI)과 데이터 인프라’라는 새로운 대전환의 분기점에 섰다. 무기체계 연구개발 데이터의 전략 자산화와 안전한 활용을 위한 필수 거점인 ‘방산 AI 데이터센터’(AIDC)의 구축 방향과 고도화된 방산기술 보호 체계를 집중 조명하는 ‘제12회 방산기술보호 및 보안 세미나’가 서울 양재동 aT센터 그랜드홀에서 350여명의 산·학·연·관·군 전문가들이 집결한 가운데"
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "enspirit 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72287",
+      "published": "2026-11-06",
+      "description": ""
     },
     {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "세무 솔루션 ‘자비스’ 사칭 해킹 발생... 운영사, 서비스 일시 중단 후 점검",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147073",
-      "published": "2026-11-06 14:12:45",
-      "description": "기업용 AI 세무·경리 서비스 ‘자비스’에서 외부 해커가 운영사를 사칭해 고객들에게 개인정보 유출 안내 메일을 발송하는 침해 시도가 포착돼 서비스가 중단됐다.자비스 운영사인 세무법인 에스브이는 5일 외부 해커가 자비스를 사칭해 일부 고객에게 “개인정보가 유출되었다”는 내용의 메일을 보낸 사실을 확인했다고 공지했다.운영사는 공지 직후 자비스 서비스의 모든 기능을 일시 정지하고 정보 유출 경로를 차단했다. 외부 전문가와 함께 사칭"
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "Apache 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72286",
+      "published": "2026-11-06",
+      "description": ""
     },
     {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "오픈AI ‘GPT-6 아스트라’, AI 안전 연구 시키니 태업했다",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147054",
-      "published": "2026-11-06 13:45:00",
-      "description": "오픈AI가 자사 모델 GPT-6 아스트라(Astra)가 AI 안전 연구 과제에서 요청받은 만큼 일하지 않았고, 대부분 경우 내부 감시 도구도 이를 잡아내지 못했다고 밝혔다.아스트라는 9월 초 출시됐다. 오픈AI 내부 위험 평가 체계인 대비 프레임워크(Preparedness Framework)에서 사이버 보안 부문 최고 위험 등급을 처음 받은 모델이다. 알맞은 도구와 접근 권한만 주면 사람이 단계마다 지시하지 않아도 방어가 단단"
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "엠투소프트 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72285",
+      "published": "2026-11-06",
+      "description": ""
     },
     {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "미국 CISA·FBI, 유럽 냉장 설비 해킹에 기반시설 냉각 장치 보안 경고",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147052",
-      "published": "2026-11-06 12:41:28",
-      "description": "미국 사이버보안·인프라보안국(CISA)과 연방수사국(FBI) 등 미국 기관들이 5일(현지시각) 국가기반시설 운영자들에게 냉각 설비 보안을 서둘러 강화하라고 권고했다.유럽 슈퍼마켓 수백 곳의 냉장고가 원격으로 해킹당해 온도가 올라간 사건에 따른 조치다. 이 공격으로 수백만유로어치 식품이 상한 것으로 추정된다. 프랑스에선 국립 혈액원 3곳의 냉각 장치 제어가 조작됐다고 프랑스혈액원이 이번 주 초 밝혔다. 다만 혈액원 사건이 슈퍼마"
-    },
-    {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "제로트러스트 기반 AI 에이전트 업무 환경 이렇게 구축... 과기정통부 안내서 발간",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147070",
-      "published": "2026-11-06 12:12:19",
-      "description": "AI 에이전트가 작동하는 여러 지점에서 행위를 검증해 정책을 집행하라고 정부가 권고했다. 사람의 결정이나 사전 승인된 정책에 따라 행동하도록 했다. 과학기술정보통신부는 6일 제로트러스트 원칙을 적용해 AI 에이전트를 도입 및 운영하기 위한 방안을 제시하는 ‘에이전틱 AI 제로트러스트 안내서’를 마련했다고 밝혔다. AI가 정보 분석이나 생성을 넘어 스스로 판단하고 도구를 활용해 업무를 수행하는 에이전틱 AI로 발전하면서, 기존 "
-    },
-    {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "AI 때문에 보안 위협  감당 못할 속도로 증가... 탐지에서 대응, 우선순위 설정까지 데이터독 웨비나에서 해법 찾는다",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147069",
-      "published": "2026-11-06 11:51:00",
-      "description": "영국 국가사이버보안센터(NCSC)는 인공지능(AI) 때문에 몇 달 안에 사이버 사고가 전례 없이 늘어날 수 있다고 경고했다. AI가 장기간 방치된 취약점을 전례 없는 규모로 찾아내 악용할 수 있게 만들었기 때문이다. 최근 PHP2셸(PHP2Shell)을 비롯한 보안 이슈와 잇따른 침해사고는 AI 위협이 빠르게 현실화되고 있음을 보여준다. 이에 따라 위협을 빠르게 탐지하고 대응하는 역량이 더욱 중요해지고 있다.글로벌 데이터 가시"
-    },
-    {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "[슬기로운 디지털 부모생활] #5. 우리 아이 폰에 이 문구 떴다면? 청소년 노리는 도박 광고 ‘5대 주문’",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147006",
-      "published": "2026-11-06 11:15:00",
-      "description": "“엄마, 꽁머니가 뭐야?” 아이가 이렇게 묻는다면 그냥 넘겨선 안 된다. 게임하다 뜬 배너, 친구가 보낸 링크, 모르는 번호의 문자 속에 불법도박 사이트로 가는 문이 숨어 있다. 표현은 계속 바뀌지만 공식은 딱 5가지다. ① “공짜로 시작하세요” ‘꽁머니’, ‘가입 즉시 무료머니’, ‘첫충 200%’처럼 내 돈 없이 시작할 수 있다고 유혹한다. 하지만 무료머니를 현금으로 바꾸려면 결국 직접 돈을 충전해야 하는 구조다.② “먹튀"
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "에스티이지 제품 보안 조치 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72284",
+      "published": "2026-11-06",
+      "description": ""
     },
     {
       "source": "kisa",
@@ -139,38 +171,6 @@
       "title": "Linux 제품 보안 업데이트 권고",
       "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72268",
       "published": "2026-11-03",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "Synology NAS 대상 랜섬웨어 공격 주의 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72267",
-      "published": "2026-11-03",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "Termix 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72266",
-      "published": "2026-11-03",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "TeamViewer 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72264",
-      "published": "2026-11-02",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "Ivanti 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72263",
-      "published": "2026-11-02",
       "description": ""
     }
   ],
