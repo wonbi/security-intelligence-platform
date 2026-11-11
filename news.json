@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T06:22:03.860Z",
+  "updatedAt": "2026-11-11T17:08:10.657Z",
   "sources": [
     {
       "source": "boannews",
@@ -16,7 +16,55 @@
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "[카드뉴스] \"FAQ 검색창 눌렀을 뿐인데\"… 1,400만 명 털린 '비로그인 API 사각지대'의 배신",
+      "title": "정부, ‘자이’ 입주민 정보 유출 GS건설 직권조사... 심의 거쳐 결정 첫 사례",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147194",
+      "published": "2026-11-11 17:56:11",
+      "description": "아파트 ‘자이’ 입주민 정보 유출 사고가 발생한 GS건설에 대해 정부가 직권조사에 나선다. 기업은 자체 조사를 결정했지만 조사 심의위원회 심의를 거쳐 직권조사가 결정된 첫 사례다.과학기술정보통신부(부총리 겸 장관 배경훈)는 GS건설 침해사고에 따른 피해 현황 및 사고 원인 등을 조사하기 위해 11일 직권조사 실시를 결정했다고 밝혔다.GS건설은 지난달 29일 침해사고를 신고했지만, 기업 자체적으로 침해 사고를 분석하기로 하며 과"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "삼정KPMG “AI에 넘겨준 공장 핸들... ‘실행 한계’로 안전선 그어야”",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147190",
+      "published": "2026-11-11 16:54:58",
+      "description": "삼정KPMG가 AI 자율제조 공정 정지를 대비한 사이버 복원력 전략을 발표했다.장석찬 삼정KPMG 이사는 11일 서울 서초구 JW메리어트 호텔 서울에서 열린 ‘포티넷 코리아 OT 사이버보안 서밋 2026’에서 ‘AI 자율제조 시대, OT 보안과 사이버 레질리언스 전략’을 소개했다.장 이사는 “AI가 생산 설비의 설정값을 직접 변경하도록 권한을 줬을 때, AI가 잘못된 판단을 내린다면 과연 공정을 멈춰야 하느냐”는 질문을 던졌다"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "유니뷰, 국내 파트너사 초청 중국 항저우 본사 투어 개최",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147191",
+      "published": "2026-11-11 16:50:41",
+      "description": "글로벌 AIoT 솔루션 기업 유니뷰(한국 지사장 유키 공)가 국내 파트너사 협력 확대를 위해 중국 항저우 본사에서 초청 행사를 열었다. 본사 경영진 교류와 제품·기술 체험 등 다양한 프로그램을 마련해 국내 협력사들과 향후 사업 방향을 논의했다.유니뷰는 4-6일 2박 3일 일정으로 초청 행사를 진행했다. 국내 파트너사들이 유니뷰의 글로벌 사업 운영 방식과 기술 개발 현황을 직접 살펴보고, 본사 협력 관계를 강화할 수 있도록 기획"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "포티넷 “멈추면 수백만 달러 증발... OT 보안, 비즈니스 성장 전략”",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147188",
+      "published": "2026-11-11 16:21:27",
+      "description": "“핵심 생산 라인이 단 1시간만 멈춰도 수백만 달러에 달하는 막대한 손실이 발생합니다. 운영기술(OT) 보안은 설비 가동을 가로막는 통제가 아니라, 다운타임 없이 안전한 디지털 전환을 가능케 하는 기업의 필수 성장 전략입니다.”레베카 첸 포티넷 북아시아 OT 사업개발 총괄은 11일 서울 서초구 JW메리어트 호텔 서울에서 열린 ‘포티넷 코리아 OT 사이버보안 서밋 2026’ 기조연설에서 이같이 강조했다.이번 행사는 포티넷코리아가"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "[국방보안 칼럼] AI가 취약점을 쏟아내는 시대, 인간은 심연을 탐색한다",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147187",
+      "published": "2026-11-11 15:57:53",
+      "description": "LLM 기반 취약점 탐지 도구는 이미 인간을 앞서기 시작했다.2025년 8월 DARPA AI 사이버 챌린지(AIxCC) 결선에서 참가 시스템들은 5,400만 줄의 코드에 심어진 합성 취약점 63개 중 54개, 즉 86%를 자율적으로 찾아냈다. 1년 전 준결승의 탐지율이 37%였으니 1년 만에 두 배 이상 뛴 셈이다. 여기에 주최 측이 심지도 않은 실제 취약점 18건을 추가로 발견했고, 대회가 끝난 뒤에도 이 시스템들은 2026"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "유럽 슈퍼마켓 냉장 시설 해킹... 과기정통부, 국내 콜드체인 업계 보안 점검 나서",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147186",
+      "published": "2026-11-11 15:45:43",
+      "description": "최근 프랑스와 벨기에 등 유럽에서 냉장 설비를 겨냥한 해킹 공격이 이어져 우려가 커지는 가운데, 정부가 국내 현장 점검에 나섰다. 과학기술정보통신부는 11일 주요 콜드체인 관련 기업 정보보호최고책임자(CISO)와 국내 실태 점검 및 긴급 조치를 위한 간담회를 열었다. 이 자리에서 과기정통부는 제조사 및 설비 사용자용 긴급 보안대책 조치를 권고하는 한편, 알기 쉬운 보안수칙 제작·전파, 한국인터넷진흥원(KISA)을 통한 상담·안"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "[카드뉴스] \"FAQ 검색창 눌렀을 뿐인데\"… 1400만 명 털린 '비로그인 API 사각지대'의 배신",
       "link": "https://www.boannews.com/news/articleView.html?idxno=147185",
       "published": "2026-11-11 15:17:22",
       "description": "단순 안내 목적인 웹사이트 FAQ 검색창의 비로그인 API 결함을 통해 고객 1,400만 명의 데이터가 유출되는 사고가 발생했다. 외부 공개 창구가 내부 핵심 데이터베이스와 직접 연동되면서 인증 없는 조작 쿼리가 DB로 직행하는 보안 사각지대가 형성되었다. 피해 예방을 위해 공개 게시판과 메인 DB를 완전히 분리하고, 비인가 쿼리를 즉시 폐기하는 캐시 전용 서버 운영 및 파라미터 무결성 검증이 요구된다."
@@ -46,52 +94,12 @@
       "description": "씨게이트 테크놀로지(Seagate Technology)가 솔리드 스테이트 드라이브(SSD)의 데이터 처리 속도와 하드 디스크 드라이브(HDD)의 대용량 저장 기능을 결합한 새로운 스토리지 제품을 선보였다.지능형 데이터 관리 플랫폼 ‘알케미’(Alkemi)를 처음 적용한 ‘파이어쿠다 포지’(FireCuda™ Forge)다. 사용자의 데이터 이용 패턴에 따라 저장 공간을 자동으로 관리한다.최근 고사양 게임과 4K 영상, AI 기반"
     },
     {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "2026년 상반기, 피싱 하던 카톡 계정 17만6000개 차단됐다",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147181",
-      "published": "2026-11-11 14:13:07",
-      "description": "카카오가 2026년 1월부터 6월까지 6개월간, ‘카카오톡’에서 약 17만6000개의 계정이 상대방으로부터 차단됐으며, 약 3만5000개의 계정이 신고를 받았다고 밝혔다. 이는 전년 동기 대비 차단은 약 6% 증가하고, 신고는 약 17% 감소한 수치다.카카오톡은 피싱 범죄로부터 이용자를 보호하기 위해 ‘글로브 시그널’, ‘스트레인저 시그널’, ‘페이크 시그널’ 기능을 제공하고 있다. 글로브 시그널과 스트레인저 시그널은 지인을 "
-    },
-    {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "크랜베리, CCTV 사각지대 없애는 AI 음원분석 솔루션으로 CES 2027 혁신상 수상",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147179",
-      "published": "2026-11-11 13:32:22",
-      "description": "AI 음원분석 기술 전문기업 크랜베리(대표 이은혜)가 자체 개발한 통합 솔루션 ‘소브릭’(SOBRIC)으로 CES 2027 혁신상을 수상했다. 영상 중심의 기존 안전관제에 소리 분석 기술을 결합해 카메라 사각지대에서 발생하는 위험까지 감지할 수 있도록 한 점이 특징이다.크랜베리는 ‘SOBRIC: Multimodal Edge Sound-AI Safety System’이 미국 소비자기술협회(CTA)가 주관하는 ‘CES 혁신상’(C"
-    },
-    {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "파이오링크, Wi-Fi 7 무선 AP 출시... 최대 1280대 기기 동시 접속 지원",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147178",
-      "published": "2026-11-11 13:14:39",
-      "description": "파이오링크(대표 조영철)가 최신 무선랜 규격 Wi-Fi 7을 지원하는 무선 액세스 포인트(AP)를 출시했다. 파이오링크는 11일 Wi-Fi 7을 지원하는 AP ‘티프론트(TiFRONT)-CA2110E’를 출시했다고 밝혔다. 티프론트-CA2110E는 실내 고밀도 환경을 위해 설계된 AP로, 사무공간, 교육시설, 의료기관, 제조현장, 공용공간처럼 사람이 몰리는 실내에서도 빠르고 안정적인 무선 연결을 제공한다. AP 한 대에 최대 "
-    },
-    {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "파이오링크, 3분기 매출 28%↑... “모든 사업 호조세”",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147176",
-      "published": "2026-11-11 13:07:32",
-      "description": "파이오링크가 3분기 전 사업 매출이 호조세를 보이며 실적이 전년 동기 대비 개선됐다. 분기 영업이익은 5배 뛰었고, 1~3분기 누적 영업이익은 흑자 전환했다. 파이오링크는 올해 3분기 연결 기준 매출 188억원, 영업이익 26억원을 기록했다고 11일 밝혔다. 매출은 전년 동기 대비 28% 늘었고, 영업이익은 지난해 3분기 5억원에서 5배 이상 늘었다. 당기순이익은 16억원을 기록했다.3분기에 거둔 호실적에 힘입어 1~3분기 누"
-    },
-    {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "벨로크, 안티드론 엣지 트래커 ‘비-헬리오스’ KC인증",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147177",
-      "published": "2026-11-11 13:04:48",
-      "description": "융합보안 전문기업 벨로크(대표 이정현)가 안티드론 궤적추적 및 복합 수신 장치 ‘비-헬리오스’(B-Helios)의 국가통합인증(KC) 적합 등록을 최종 완료했다고 11일 밝혔다. 공공 및 국방 안티드론 시장을 대상으로 본격적 수주 확대에 나선다.이번 KC인증 완료는 공항, 원전, 발전소, 국방 등 국가중요시설 입찰 및 현장 설치에 필요한 법적·기술적 자격을 확보했음을 의미한다. 벨로크는 이번 인증을 통해 상시 발주되는 공공 및"
-    },
-    {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "메시지 파일 하나 열자 인증값 유출... 마이크로소프트, 악용된 아웃룩 결함 등 1094개 패치",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147159",
-      "published": "2026-11-11 12:52:49",
-      "description": "마이크로소프트가 11월 정기 보안 업데이트로 자사 제품 취약점 1094개를 고쳤다. 이 가운데 아웃룩 결함 하나는 이미 실제 공격에 쓰였다고 마이크로소프트가 밝혔다.시큐리티위크는 10일(현지시각) 마이크로소프트 보안 권고를 바탕으로 이번 업데이트 내용을 정리했다. 악용된 결함은 CVE-2026-124194로, 아웃룩이 위험할 수 있는 동작을 하기 전에 사용자에게 경고하지 않는 문제다. 마이크로소프트는 이를 위장(스푸핑) 결함으"
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "Ivanti 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72297",
+      "published": "2026-11-11",
+      "description": ""
     },
     {
       "source": "kisa",
@@ -163,14 +171,6 @@
       "title": "OpenSSH 보안 업데이트 권고",
       "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72288",
       "published": "2026-11-07",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "enspirit 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72287",
-      "published": "2026-11-06",
       "description": ""
     }
   ],
