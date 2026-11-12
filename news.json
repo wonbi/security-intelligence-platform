@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T00:44:12.961Z",
+  "updatedAt": "2026-11-12T11:11:46.675Z",
   "sources": [
     {
       "source": "boannews",
@@ -16,82 +16,138 @@
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "‘해피포인트 운영사’ SPC그룹 산하 섹타나인 개인정보 유출",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147199",
-      "published": "2026-11-12 09:30:42",
-      "description": "해피포인트 운영사 섹타나인에서 해킹으로 인한 개인정보 유출 사고가 발생했다.섹타나인은 12일 “6일 발생한 가맹점 관리자 계정 침해 사고와 관련해 조사 및 후속 조치를 진행하던 중 개인정보 유출 사실을 확인했다”며 “유출이 확인된 정보는 구매자명, 마스킹된 카드번호, 카드사 등으로 확인됐다”고 밝혔다. 앞서 섹타나인은 6일 오전10시경 외부 비정상적 접근으로 지급대행서비스를 이용한 고객들의 일부 정보가 유출된 것으로 의심되는 "
+      "title": "스플렁크에서 ‘크리미널 IP’ 정보 활용... AI스페라,  ‘크리미널 IP TI 피드’ 출시",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147228",
+      "published": "2026-11-12 16:26:07",
+      "description": "AI스페라(AI SPERA)는 위협 인텔리전스 플랫폼 크리미널 IP의 위협 정보를 스플렁크(Splunk)에서 활용할 수 있는 ‘크리미널 IP TI 피드’(Criminal IP TI Feed) 앱을 출시했다고 12일 밝혔다.스플렁크는 기업의 보안 위협 탐지와 IT 시스템 관리를 지원하는 기업이다. 이 회사 공식 앱 마켓플레이스인 스플렁크베이스는 다양한 보안·IT 관련 앱을 제공하고 있다. ‘크리미널 IP TI 피드’ 앱도 스플렁"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "마일스톤시스템즈, AI 기반 영상보안 시대에 유연성·개방성·신뢰성 강조",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147195",
-      "published": "2026-11-12 09:17:30",
-      "description": "AI와 영상분석 기술이 영상보안 시장을 빠르게 변화시키면서 기업들은 단순 감시를 넘어 데이터 활용과 운영 효율성을 높일 수 있는 차세대 비디오 관리 플랫폼 도입에 관심을 높이고 있다. 이에 마일스톤시스템즈는 11일 ‘한국 테크 데이’(Korea Tech Day)를 개최하고 XProtect® 영상관리 소프트웨어(VMS), Arcules® 클라우드 VSaaS(Video Surveillance as a Service), BriefC"
+      "title": "누리랩, 온디바이스 AI로 비대면 얼굴 인증 위·변조 막는다",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147226",
+      "published": "2026-11-12 15:25:44",
+      "description": "누리랩이 온디바이스 AI 기반 실시간 얼굴 위·변조 탐지 기술을 개발하고 사업화에 나선다.누리랩은 한국인터넷진흥원(KISA) ‘2026년 AI 보안 유망기업 육성 지원사업’ 과제를 통해 모바일 환경용 실시간 얼굴 진위 판별 시제품 개발을 마쳤다고 12일 밝혔다.이번 기술은 스마트폰 카메라로 입력된 영상에서 얼굴 영역을 검출한 뒤 AI 모델로 실제 얼굴과 위조물을 실시간 구분한다. 특히 △3D 마스크(MASKED) △인쇄 사진("
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "“딱 1초 간격 맞춰 패스워드 뿌려”... 선 안 밟는 ‘아르텍스’ 기반 공격 특징은?",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147193",
-      "published": "2026-11-12 08:30:00",
-      "description": "자율형 AI 펜테스트 도구 ‘아르텍스’(ARTEX)를 악용한 공격이 국내외에서 이어지는 가운데, 위협 인텔리전스 기업 SOC레이더(SOCRadar)가 아르텍스 악용 공격이 남긴 고유 행위 패턴을 분석하고 탐지 지침을 제시했다.12일 SOC레이더는 보안 시스템의 감시망을 피하기 위한 매우 정교한 기계적 알고리즘을 아르텍스 악용 공격의 특징으로 꼽았다.“1초 간격 로그인 폭주하면서 선은 안넘어”대표적 기법이 ‘1초 간격 패스워드 "
+      "title": "“해킹당해도 국가 기능은 지속”... 국가 사이버복원력 범정부 TF 출범",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147225",
+      "published": "2026-11-12 15:06:56",
+      "description": "사이버 공격을 당해도 국가 핵심 서비스들이 지속되도록 사이버복원력을 강화하기 위한 범정부 태스크포스(TF)가 출범했다.국가인공지능전략위원회는 12일 '국가 사이버복원력 강화 태스크포스(TF)'를 출범했다. AI를 악용한 사이버 공격에 대응하고, 침해 사고가 발생하더라도 국가 기능이 마비되지 않도록 복구 역량을 강화하기 위해서다.이번 TF 출범은 6일 열린 국가AI전략위 제3차 회의의 후속 조치다. 사이버 공격 사전 차단뿐 아니"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "정부, ‘자이’ 입주민 정보 유출 GS건설 직권조사... 심의 거쳐 결정 첫 사례",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147194",
-      "published": "2026-11-11 17:56:11",
-      "description": "아파트 ‘자이’ 입주민 정보 유출 사고가 발생한 GS건설에 대해 정부가 직권조사에 나선다. 기업은 자체 조사를 결정했지만 조사 심의위원회 심의를 거쳐 직권조사가 결정된 첫 사례다.과학기술정보통신부(부총리 겸 장관 배경훈)는 GS건설 침해사고에 따른 피해 현황 및 사고 원인 등을 조사하기 위해 11일 직권조사 실시를 결정했다고 밝혔다.GS건설은 지난달 29일 침해사고를 신고했지만, 기업 자체적으로 침해 사고를 분석하기로 하며 과"
+      "title": "“악질 사이버 범죄 조직 4곳 뭉쳤다”... ‘스캐터트랩서스헌터스’ 집결",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147224",
+      "published": "2026-11-12 14:58:18",
+      "description": "악명 높은 해킹 그룹 연합 ‘스캐터드랩서스헌터스’(Scattered Lapsus Hunters)가 활동 재개를 공식화했다. 스캐터드랩서스헌터스의 악명을 사칭해 사기 행각을 벌이는 사례가 잇따르자 대응에 나선 것으로 풀이된다. 스캐터드랩서스헌터스는 12일 자신들의 텔레그램 채널에서 “진짜와 가짜를 구분하기 위해 스캐터드 랩서스 헌터스는 동맹을 부활시키기로 결정했다”며 “우리는 ‘UNC6783’도 우리 연합에 끌어들이기로 결정했다"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "삼정KPMG “AI에 넘겨준 공장 핸들... ‘실행 한계’로 안전선 그어야”",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147190",
-      "published": "2026-11-11 16:54:58",
-      "description": "삼정KPMG가 AI 자율제조 공정 정지를 대비한 사이버 복원력 전략을 발표했다.장석찬 삼정KPMG 이사는 11일 서울 서초구 JW메리어트 호텔 서울에서 열린 ‘포티넷 코리아 OT 사이버보안 서밋 2026’에서 ‘AI 자율제조 시대, OT 보안과 사이버 레질리언스 전략’을 소개했다.장 이사는 “AI가 생산 설비의 설정값을 직접 변경하도록 권한을 줬을 때, AI가 잘못된 판단을 내린다면 과연 공정을 멈춰야 하느냐”는 질문을 던졌다"
+      "title": "“키 나눠 관리해 양자 위협 방어” 서울대팀, 국가암호공모전 대상",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147221",
+      "published": "2026-11-12 14:50:00",
+      "description": "국가정보원이 ‘2026 국가암호공모전’ 시상식을 열고 우수 연구팀 55곳을 포상했다.국가정보원은 11일 서울 양재 엘타워에서 한국정보보호학회·양자내성암호연구단과 공동으로 시상식을 개최했다고 12일 밝혔다. 이 대회는 국가 암호기술 역량을 높이고 차세대 보안 인재를 발굴하기 위해 2005년 처음 열렸다.올해 공모전에는 180개팀이 참여했다. 분야별로는 △암호 이론 50편 △암호 응용 98편 △양자내성암호(PQC) 32편의 논문이"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "유니뷰, 국내 파트너사 초청 중국 항저우 본사 투어 개최",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147191",
-      "published": "2026-11-11 16:50:41",
-      "description": "글로벌 AIoT 솔루션 기업 유니뷰(한국 지사장 유키 공)가 국내 파트너사 협력 확대를 위해 중국 항저우 본사에서 초청 행사를 열었다. 본사 경영진 교류와 제품·기술 체험 등 다양한 프로그램을 마련해 국내 협력사들과 향후 사업 방향을 논의했다.유니뷰는 4-6일 2박 3일 일정으로 초청 행사를 진행했다. 국내 파트너사들이 유니뷰의 글로벌 사업 운영 방식과 기술 개발 현황을 직접 살펴보고, 본사 협력 관계를 강화할 수 있도록 기획"
+      "title": "웹사이트 열기만 해도 감염... 범죄자 손에 넘어간 스마트폰 스파이웨어, 평범한 사람 노린다",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147161",
+      "published": "2026-11-12 14:40:00",
+      "description": "고급 스파이웨어가 더는 정치인이나 언론인만의 걱정거리가 아니라는 분석이 나왔다. 유출된 아이폰 해킹 도구를 손에 넣은 사이버 범죄자들이 평범한 사람의 스마트폰을 무차별로 감염시키고 있다.위협 탐지 기업 아이베리파이(iVerify)는 새 보고서에서 자사 무료 온라인 기기 점검 1000건당 1.07건에서 스파이웨어 감염이 나왔다고 밝혔다. 기업 대상 점검에선 1000건당 0.7건으로 더 낮았다. 아이베리파이는 기업이 패치를 강제하"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "포티넷 “멈추면 수백만 달러 증발... OT 보안, 비즈니스 성장 전략”",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147188",
-      "published": "2026-11-11 16:21:27",
-      "description": "“핵심 생산 라인이 단 1시간만 멈춰도 수백만 달러에 달하는 막대한 손실이 발생합니다. 운영기술(OT) 보안은 설비 가동을 가로막는 통제가 아니라, 다운타임 없이 안전한 디지털 전환을 가능케 하는 기업의 필수 성장 전략입니다.”레베카 첸 포티넷 북아시아 OT 사업개발 총괄은 11일 서울 서초구 JW메리어트 호텔 서울에서 열린 ‘포티넷 코리아 OT 사이버보안 서밋 2026’ 기조연설에서 이같이 강조했다.이번 행사는 포티넷코리아가"
+      "title": "비운 메모리 다시 건드리는 결함... 구글, 올해 8번째 크롬 제로데이 긴급 패치",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147158",
+      "published": "2026-11-12 14:21:09",
+      "description": "구글이 이미 실제 공격에 쓰이고 있는 크롬 결함을 긴급 수정했다. 올해 들어 구글이 고친 크롬 제로데이는 이로써 8개로 늘었다.더해커뉴스에 따르면 구글은 최근 크롬 보안 업데이트를 내놓고 취약점 9개를 고쳤다. 이 가운데 CVE-2026-125350은 크롬의 XML 처리 부분에서 생기는 메모리 해제 후 재사용(UAF) 결함으로, 위험도는 ‘높음’ 등급이다.UAF는 프로그램이 이미 비워 둔 메모리 영역에 다시 접근할 때 생기는 "
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "[국방보안 칼럼] AI가 취약점을 쏟아내는 시대, 인간은 심연을 탐색한다",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147187",
-      "published": "2026-11-11 15:57:53",
-      "description": "LLM 기반 취약점 탐지 도구는 이미 인간을 앞서기 시작했다.2025년 8월 DARPA AI 사이버 챌린지(AIxCC) 결선에서 참가 시스템들은 5,400만 줄의 코드에 심어진 합성 취약점 63개 중 54개, 즉 86%를 자율적으로 찾아냈다. 1년 전 준결승의 탐지율이 37%였으니 1년 만에 두 배 이상 뛴 셈이다. 여기에 주최 측이 심지도 않은 실제 취약점 18건을 추가로 발견했고, 대회가 끝난 뒤에도 이 시스템들은 2026"
+      "title": "“텔레그램 대화창 기밀 유출 잡는다” 세이퍼존, DLP 기술 고도화",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147220",
+      "published": "2026-11-12 14:18:38",
+      "description": "세이퍼존이 텔레그램 메신저의 실시간 대화 내용을 로깅해 정보유출을 막는 기술을 구현했다.세이퍼존은 윈도우와 맥OS 환경에서 텔레그램 대화 내역을 실시간으로 기록·감시하는 엔드포인트 데이터유출방지(DLP) 기능을 개발했다고 12일 밝혔다.최근 텔레그램 등 외부 메신저를 업무에 활용하는 사례가 늘면서 파일 전송뿐 아니라 대화창을 통한 기밀 유출 우려가 커지고 있다. 기존 네트워크 트래픽 분석 방식은 암호화 통신 구간 때문에 실제 "
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "유럽 슈퍼마켓 냉장 시설 해킹... 과기정통부, 국내 콜드체인 업계 보안 점검 나서",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147186",
-      "published": "2026-11-11 15:45:43",
-      "description": "최근 프랑스와 벨기에 등 유럽에서 냉장 설비를 겨냥한 해킹 공격이 이어져 우려가 커지는 가운데, 정부가 국내 현장 점검에 나섰다. 과학기술정보통신부는 11일 주요 콜드체인 관련 기업 정보보호최고책임자(CISO)와 국내 실태 점검 및 긴급 조치를 위한 간담회를 열었다. 이 자리에서 과기정통부는 제조사 및 설비 사용자용 긴급 보안대책 조치를 권고하는 한편, 알기 쉬운 보안수칙 제작·전파, 한국인터넷진흥원(KISA)을 통한 상담·안"
+      "title": "지니언스, 3분기 137억원 매출·37억원 영업익… 누적 영업익 274% 증가",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147219",
+      "published": "2026-11-12 14:16:59",
+      "description": "AI 보안 통합 플랫폼 기업 지니언스(대표 이동범)가 2026년 3분기 연결기준 137억7819만원 매출과 37억7774만원 영업이익을 기록했다고 12일 공시했다.3분기 누적 기준 영업이익은 전년대비 274% 급증하며 역대급 실적을 달성했다고 회사는 밝혔다. 선제적인 연구개발(R&D) 투자의 결실을 가시화하며 견조한 외형 성장과 뚜렷한 수익성 개선을 이뤘다는 설명이다.지니언스는 2026년 연결 기준 3분기 누적 매출액이 전년 "
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "[카드뉴스] \"FAQ 검색창 눌렀을 뿐인데\"… 1400만 명 털린 '비로그인 API 사각지대'의 배신",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147185",
-      "published": "2026-11-11 15:17:22",
-      "description": "단순 안내 목적인 웹사이트 FAQ 검색창의 비로그인 API 결함을 통해 고객 1,400만 명의 데이터가 유출되는 사고가 발생했다. 외부 공개 창구가 내부 핵심 데이터베이스와 직접 연동되면서 인증 없는 조작 쿼리가 DB로 직행하는 보안 사각지대가 형성되었다. 피해 예방을 위해 공개 게시판과 메인 DB를 완전히 분리하고, 비인가 쿼리를 즉시 폐기하는 캐시 전용 서버 운영 및 파라미터 무결성 검증이 요구된다."
+      "title": "‘차세대 금융을 준비하는 현재’... FISCON 2026, AI 자율 방어 해법 제시",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147218",
+      "published": "2026-11-12 14:14:07",
+      "description": "12일 금융보안원 주최로 열린 ‘FISCON 2026’에서 AI 시대 금융보안 전환 전략이 논의됐다.금융보안원·금융정보보호협의회·금융보안포럼이 공동 주최하고 금융위원회·금융감독원·한국정보보호산업협회가 후원한 ‘금융정보보호 컨퍼런스(FISCON) 2026’이 12일 ‘Now for Next Finance’를 주제로 서울 영등포구 콘래드 서울에서 열렸다. 김태수 조지아공과대학교 교수는 기조강연에서 프론티어 AI 등장 이후 취약점 "
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "Apache 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72304",
+      "published": "2026-11-12",
+      "description": ""
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "WordPress 플러그인 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72303",
+      "published": "2026-11-12",
+      "description": ""
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "Node.js 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72302",
+      "published": "2026-11-12",
+      "description": ""
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "Zoom 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72301",
+      "published": "2026-11-12",
+      "description": ""
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "Synology 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72300",
+      "published": "2026-11-12",
+      "description": ""
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "MS 11월 보안 위협에 따른 정기 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72299",
+      "published": "2026-11-12",
+      "description": ""
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "React 서버 컴포넌트 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72298",
+      "published": "2026-11-12",
+      "description": ""
     },
     {
       "source": "kisa",
@@ -115,62 +171,6 @@
       "title": "SAP 제품 보안 업데이트 권고",
       "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72295",
       "published": "2026-11-10",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "IBM 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72294",
-      "published": "2026-11-10",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "WordPress 플러그인 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72293",
-      "published": "2026-11-10",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "SonicWall 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72292",
-      "published": "2026-11-10",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "OWASP 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72291",
-      "published": "2026-11-10",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "SonicWall 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72290",
-      "published": "2026-11-09",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "인피니트헬스케어 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72289",
-      "published": "2026-11-07",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "OpenSSH 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72288",
-      "published": "2026-11-07",
       "description": ""
     }
   ],
