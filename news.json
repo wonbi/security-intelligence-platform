@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T01:50:28.353Z",
+  "updatedAt": "2026-11-13T10:59:25.451Z",
   "sources": [
     {
       "source": "boannews",
@@ -16,82 +16,90 @@
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "[카드뉴스] \"우리 회사는 안 털렸는데 월급 명세서가 샜다?\"… 수만 개 기업 덮친 'ERP 백업망'",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147246",
-      "published": "2026-11-13 10:46:43",
-      "description": "개별 기업이 직접 해킹당하지 않았음에도, 수만 개 기업의 급여와 장부를 통합 보관하던 대형 ERP 백업망이 제로데이 공격에 뚫리며 연쇄 유출 위기가 발생했다. 백업 소프트웨어의 보안 취약점 하나가 전체 고객사 백본 침투로 이어져 임직원의 연봉, 계좌번호, 인사 기록을 동시에 노출시키는 공급망 위협을 드러냈다. 연쇄 붕괴를 막기 위해 주 전산망과 백업 시스템을 물리적으로 분리하는 '불변(Immutable) 오프라인 격리' 구축과"
+      "title": "쏘카 사내 관리 시스템 침해... 임직원·협력사 일부 개인정보 유출",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147260",
+      "published": "2026-11-13 19:08:05",
+      "description": "쏘카 사내 관리 시스템에서 전·현직 임직원과 협력사 관계자 일부의 개인정보가 유출됐다. 쏘카는 외부 공격자가 내부 인증정보를 도용해 사내 관리 시스템에 비정상 접근한 사실을 확인하고 비상대응 체계를 가동했다고 13일 밝혔다. 사내 업무용 관리 시스템이 침해됐으며, 일반 카셰어링 서비스 이용 고객 정보는 유출 대상에 포함되지 않았다고 회사는 밝혔다.조사 결과 유출 항목은 정보주체별로 다르며, 업무 관련 일부 정보로 확인됐다. 전"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "델 테크놀로지스, 6세대 AMD 에픽 탑재 ‘파워엣지’ 서버 2종 공개",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147243",
-      "published": "2026-11-13 10:42:46",
-      "description": "델 테크놀로지스(Dell Technologies)가 AMD의 6세대 에픽(EPYC) 프로세서를 탑재한 서버 신제품 ‘델 파워엣지 R9825’(Dell PowerEdge R9825)와 ‘델 파워엣지 R9815’(Dell PowerEdge R9815)를 공개했다.두 제품은 공랭식 설계를 기본으로 채택해 기업과 공공기관이 기존 데이터센터 시설을 재설계하지 않고도 고성능 컴퓨팅 환경을 구축할 수 있도록 지원한다. 워크로드 증가에 따라"
+      "title": "[단독] 협업 도구 ‘두레이’ 해킹... API 서비스 차단",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147258",
+      "published": "2026-11-13 18:43:16",
+      "description": "협업 플랫폼 두레이(Dooray)에서 침해 정황이 포착됐다. 이로 인해 두레이는 API 서비스를 중단한 상태다.NHN두레이는 13일 “이날 새벽 외부인 계정 접근 시도가 확인돼 민간 및 공공 고객사 계정 보호 및 추가 피해 예방을 위한 긴급 보안 조치를 진행했다”며 “이에 따라 기존 서비스 API 및 관리자 API 키를 모두 폐기했으며, 현재 해당 API를 이용할 수 없다”고 공지했다.API 서비스의 안정화 작업을 마치고 안정"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "티피링크 타포, 매터(Matter) 지원 로봇청소기 ‘Tapo RV30 Max Plus Gen 2’ 출시",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147244",
-      "published": "2026-11-13 10:42:20",
-      "description": "티피링크(TP-Link) 스마트홈 브랜드 타포(Tapo)가 스마트홈 표준 프로토콜 매터(Matter)를 지원하는 로봇청소기 신제품 ‘Tapo RV30 Max Plus Gen 2’를 출시했다.이번 신제품은 기존 ‘Tapo RV30 Max Plus’의 후속 모델로, 흡입력을 대폭 끌어올리고 자동 커팅 브러시와 반려동물 털 수거 모드를 새롭게 적용해 청소 성능과 사용자 편의성을 강화했다.Tapo RV30 Max Plus Gen 2는"
+      "title": "[2026 SSL VPN 리포트] 원격접속 넘어 제로트러스트로... SSL VPN 시장, 전환 기로에 서다",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147259",
+      "published": "2026-11-13 18:37:24",
+      "description": "코로나 팬데믹 이후 원격 근무나 재택 근무가 일상화됐다. 집이나 카페에서 다양한 기기로 사내 망에 접속하게 되면서 정보보호를 위해 관리해야 할 접점도 늘었다. 코로나19는 잠잠해졌지만, 일하는 방식이 모바일과 클라우드 환경 중심으로 변하는 추세는 되돌릴 수 없는 상황이다. 인공지능(AI) 서비스와 업무용 AI 에이전트 활용이 늘어나면서 더더욱 폐쇄망 안에 업무 환경을 가두기 어렵게 됐다.최근엔 사물인터넷(IoT)이나 산업 설비"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "카카오워크 해킹, 업무 정보 줄줄... ‘종단간 암호화’ 무색",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147242",
-      "published": "2026-11-13 10:36:15",
-      "description": "업무용 협업 도구 카카오워크가 해킹을 당해 개인정보와 업무정보까지 유출됐다.13일 카카오엔터프라이즈에 따르면 카카오워크의 서비스 제공자 디케이테크인에서 외부 공격자의 비정상적 접근으로 일부 이용자 개인정보가 유출됐다. 카카오엔터프라이즈는 이 같은 내용을 공식 홈페이지에 안내했다.디케이테크인은 카카오 그룹 자회사다. 안내문에 따르면, 공격은 9일 발생했다. 이 과정에서 일부 이용자의 개인정보가 유출된 사실이 확인됐다. 디케이테크"
+      "title": "씨엠아이텍, ‘태국 시큐테크 2026’서 비접촉 얼굴·홍채 생체인증 솔루션 공개",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147257",
+      "published": "2026-11-13 17:40:47",
+      "description": "생체인증 전문기업 씨엠아이텍(CMITech)이 18-20일 태국 방콕 퀸 시리킷 국립컨벤션센터(QSNCC) 3·4홀에서 열리는 국제 보안 전시회 ‘Secutech Thailand 2026’에 참가해 동남아 물리보안 및 신원인증 시장 공략에 나선다.씨엠아이텍은 상업시설과 산업 현장의 출입통제 및 신원확인에 최적화된 비접촉 생체인증 솔루션과 함께 자사 기술이 적용된 태국 전자여권 프로젝트 등 국가 신분 인증 사업 레퍼런스도 함께 "
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "KB캐피탈, 외부 공격으로 고객·임직원 개인정보 유출",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147240",
-      "published": "2026-11-13 10:24:33",
-      "description": "KB캐피탈에서 외부 공격으로 고객과 임직원 개인정보 유출 사고가 터졌다.KB캐피탈은 악의적 공격으로 10일 고객과 협력사, 임직원의 개인정보가 유출된 사실을 확인했다고 13일 공지했다. 유출 사고는 ‘자동차임대자산관리시스템’에서 발생했으며, 금융거래와는 무관한 시스템이라고 회사는 설명했다.현재까지 파악된 유출 인원은 총 1811이다. 일반 고객이 20명이고, 나머지 1791명은 협력사 직원과 KB캐피탈 임직원이다.개인별 유출 "
+      "title": "[부고] 최재우 에스케어 상무 부친상",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147256",
+      "published": "2026-11-13 16:07:59",
+      "description": "△내용: 최재우 에스케어 상무 부친상△고인: 故 최연중 님(향년 86세)△빈소: 신촌세브란스병원장례식장 6호실△발인: 2026년 11월 15일△장지: 서울시립승화원 / 하늘문 추모공원"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "‘플라이빗’ 개인정보 40건 유출... 다우기술 그룹웨어 해킹 3번째 피해",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147241",
-      "published": "2026-11-13 10:19:40",
-      "description": "다우기술 그룹웨어를 노린 공격에 또 한 곳의 가상자산 거래소가 개인정보 유출 사고를 겪었다. 가상자산 거래소 플라이빗에서도 40명의 개인정보 유출 사고가 발생한 것이다. 빗썸, 한양증권 등에 이어 세 번째 사고다. 플라이빗을 운영하는 한국디지털거래소는 이달 5일 “최근 사내 그룹웨어 시스템 운영사인 다우기술을 통한 외부 비인가 접근으로, 유관기관의 정보제공 요청 메일의 첨부파일에 포함된 일부 고객의 개인정보가 유출된 사실을 확"
+      "title": "“AI 기반 안전관리 혁신 성과”... KT, 대한민국 인터넷대상 국무총리상 수상",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147255",
+      "published": "2026-11-13 15:55:35",
+      "description": "KT(대표 박윤영)가 인공지능(AI)과 데이터 기반으로 국가 핵심 통신 인프라의 안전성을 높였다는 평가를 받았다. KT는 AI와 데이터 기반의 통신시설 안전관리 혁신 성과를 인정받아 ‘제21회 대한민국 인터넷대상’ 인터넷 비즈니스 부문 국무총리상을 수상했다고 13일 밝혔다. 대한민국 인터넷대상은 인터넷 산업 발전과 디지털 혁신에 기여한 기업과 기관을 선정해 시상하는 정부 포상이다. KT는 초고속 인터넷망을 활용해 전국 자사 빌"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "CISA, 시스코 브로드웍스·오픈웨이브 결함 악용 경고",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147196",
-      "published": "2026-11-13 10:04:55",
-      "description": "미국 사이버보안·인프라보안청(CISA)이 통신 서비스 업체들이 쓰는 제품의 결함 2건을 실제 공격에 악용된 취약점으로 지정했다. 하나는 시스코 브로드웍스(BroadWorks)에서, 다른 하나는 오픈웨이브(Openwave) 웹메일의 문서 변환 기능에서 나왔다.CISA는 10일(현지시각) 두 결함을 알려진 악용 취약점(KEV) 목록에 올리고 연방 기관에 24일까지 패치하라고 요구했다. 시큐리티위크에 따르면 이날 목록엔 바라쿠다 결"
+      "title": "그룹아이비, 싱가포르 경찰청 ‘암호화폐 사기 예방 작전’ 참여",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147253",
+      "published": "2026-11-13 15:05:42",
+      "description": "그룹아이비(지사장 김기태)가 싱가포르 암호화폐 사기 예방 작전에 참여해 400억원에 달하는 피해 예방에 기여했다. 그룹아이비는 13일 국제 사이버 범죄 대응 및 사기 피해 예방을 위해 싱가포르 경찰청(SPF) 사이버사령부가 주요하는 암호화폐 사기 예방 작전 ‘오퍼레이션 스피어’에 참여했다고 밝혔다. 작전을 통해 그룹아이비는 사기 피해자 1115명 보호 및 잠재적 피해액 3632만싱가폴달러(한화 약 386억2000만원)을 예방하"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "마이크로소프트 365 장애로 아웃룩·팀즈 세계 곳곳서 먹통",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147233",
-      "published": "2026-11-13 09:56:52",
-      "description": "마이크로소프트의 업무용 클라우드 서비스 마이크로소프트 365에서 12일(현지시각) 대규모 장애가 나 세계 곳곳 이용자가 아웃룩 메일과 팀즈 메신저, AI 비서 코파일럿을 제대로 쓰지 못했다.블리핑컴퓨터에 따르면 장애는 미국 동부시간 오후 1시26분 시작됐다. 이날 오후 장애 신고 사이트 다운디텍터엔 아웃룩과 마이크로소프트 365, 팀즈, 코파일럿, 애저, 원드라이브, 마이크로소프트 스토어 관련 불만이 한꺼번에 몰렸다.마이크로소"
+      "title": "광주 동구 마을공동체 앱 ‘우리동네do반장’ 2101명 개인정보 유출",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147251",
+      "published": "2026-11-13 14:06:41",
+      "description": "전남광주 동구가 운영하는 마을공동체 참여 앱에서 2000명 이상의 개인정보 유출 사고가 발생했다. 동구청은 동구 마을공동체 참여 앱 ‘우리동네do반장’ 내 공지사항을 통해 “‘우리동네do반장’ 관리자 페이지에 접속 인증이 적용되지 않은 보안 취약점이 있어 외부에서 관리자 페이지에 접속, 개인정보를 유출한 사실이 5일 확인됐다”고 밝혔다.공지에 따르면 유출된 개인정보 건수는 2101명분이다. 유출 개인정보 항목은 △이름 △휴대전"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "“선내 OT부터 육상 IT까지” 싸이터·플레인비트, 해양 침해대응 맞손",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147229",
-      "published": "2026-11-12 17:40:23",
-      "description": "해양·선박 사이버보안 전문기업 싸이터는 디지털 포렌식 전문기업 플레인비트와 선박 및 해양 인프라의 사이버 사고조사·침해대응 역량 강화를 위한 업무협약(MOU)을 체결했다고 12일 밝혔다.선박과 해양 인프라는 항해·기관·통신 등 운항기술(OT) 시스템과 정보기술(IT) 환경이 복합 연결돼 있다. 이 때문에 사이버 사고가 발생하면 일반 IT 환경과 달리 선박 시스템 구조에 대한 이해와 체계적인 디지털 증거 수집·분석 역량이 동시에"
+      "title": "해킹 막은 메이플스토리 유니버스 “가상자산 유출 없어”",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147252",
+      "published": "2026-11-13 14:04:38",
+      "description": "메이플스토리 유니버스가 서버 침해사고에 조기 대응해 가상자산 탈취 피해를 막았다. 보안 업계에서는 외부 서버와 개발자 API 키 등 ‘비인간 자격증명’(Non-Human Identity) 관리가 서비스 안전을 좌우한다는 점을 보여준 사례라고 말한다.메이플스토리 유니버스 운영진은 13일 공식 SNS 공지에서 전날 발생한 오프체인 서버 인프라 일부의 비인가 외부 접근을 확인하고 즉시 차단 조치를 완료했다고 밝혔다. 운영진은 추가 "
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "NSHC, 공공·국방 AI 보안 전략 발표... 3단계 선제 예방 강조",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147232",
-      "published": "2026-11-12 17:40:07",
-      "description": "엔에스에이치씨(NSHC)가 공공·국방 분야의 AI 보안 전략을 발표했다.NSHC(대표 최병규)는 윤선희 GA사업팀 이사가 12일 대전대학교에서 열린 ‘2026 국방혁신 AI유무인복합체계 발전 세미나’에 연사로 나서 ‘AI 해커 시대의 공공·국방 AX 전략’을 주제로 강연했다고 밝혔다. 이번 세미나는 지난 3월 NSHC와 대전대 군사학과가 체결한 AI유무인복합체계(MUM-T) 및 사이버보안 전문인재 양성 산학협력 업무협약(MOU"
+      "title": "젠슨 황 사임, CEO 불륜 너머 ‘AI 반도체 안보전’",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147249",
+      "published": "2026-11-13 14:01:28",
+      "description": "젠슨 황 엔비디아 최고경영자(CEO)가 사내외 불륜 스캔들로 결국 대표직에서 물러난 가운데, 보안 업계에서는 이번 퇴진의 이면에 AI 가속기 확보를 둘러싼 미·중 간 물밑 정보전과 사법적 파국을 피하기 위한 미 방첩당국의 ‘경고성 봉합’이라는 고도의 안보 계산등이 깔려 있다는 해석이 나온다.엔비디아는 12일(현지시간) 황 전 CEO가 사장·CEO·이사직에서 즉시 사임했다고 발표했다. 이사회는 콜레트 크레스 최고재무책임자(CFO"
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "Vates 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72306",
+      "published": "2026-11-13",
+      "description": ""
     },
     {
       "source": "kisa",
@@ -163,14 +171,6 @@
       "title": "MongoDB 제품 보안 업데이트 권고",
       "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72296",
       "published": "2026-11-11",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "SAP 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72295",
-      "published": "2026-11-10",
       "description": ""
     }
   ],
