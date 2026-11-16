@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T06:30:36.613Z",
+  "updatedAt": "2026-11-16T19:36:50.267Z",
   "sources": [
     {
       "source": "boannews",
@@ -16,82 +16,98 @@
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "‘NETAND Security Day 2026’ 성료... 넷앤드, “AI 시대 접근통제 확장 필수”",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147303",
-      "published": "2026-11-16 13:46:07",
-      "description": "통합 접근제어 및 계정관리(IAM) 솔루션 전문기업 넷앤드(대표 신호철)가 11월 12일, 고객 대상 보안 세미나 ‘NETAND Security Day 2026’를 서울 구로구 포포인츠바이쉐라톤에서 개최했다고 밝혔다.이번 세미나는 ‘AI 시대의 공격, 접근통제는 어디까지 준비하셨나요?’를 주제로 마련됐다. 이는 최근 AI 기술을 악용한 사이버 공격으로 보안 사고가 연이어 발생함에 따라, 기업과 기관의 시스템 접근통제 전략을 점"
+      "title": "‘세기의 개혁’ 내건 독일... 연방정보국, 해외 위협 보고 넘어 해킹·서버 차단까지",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147283",
+      "published": "2026-11-16 18:01:00",
+      "description": "독일 연방의회가 13일(현지시각) 정보기관에 외국 시스템 침투와 적대 세력 공급망 교란, 적대 국가 해킹 조직 서버 차단 권한을 주는 법안을 통과시켰다.표결 결과는 찬성 308표, 반대 190표, 기권 71표다. 전후 최대 규모의 정보기관법 개편으로 불리는 이 법안은 프리드리히 메르츠 총리 내각이 초안을 승인한 지 몇 달 만에 의회 문턱을 넘었다.니나 바르켄(Nina Warken) 총리실장은 처음 이 권한을 제안할 때 정보기관"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "과기정통부, MS 장애 관련 국내 이용자 불편 최소화 나선다",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147298",
-      "published": "2026-11-16 13:45:00",
-      "description": "과학기술정보통신부(과기정통부)가 마이크로소프트(MS) 글로벌 서비스 장애 관련 국내 이용자 불편 최소화를 위해 서비스 복구 및 피해 상황을 점검하고 있다. 과기정통부는 16일 MS 글로벌 서비스 장애와 관련해 피해 상황 점검 및 서비스 복구 등 대응에 나서고 있으며, 국내 주요 플랫폼 사업자들에도 장애 예방을 위한 자체 시스템 점검을 실시토록 조치했다고 밝혔다. 과기정통부에 따르면, 13일 MS365 서비스에 장애가 발생해 국"
+      "title": "“쌓여있는 메일, 24시간 뒤 삭제”... 마이크로소프트 365 장애 틈탄 피싱 메일 기승",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147278",
+      "published": "2026-11-16 17:40:00",
+      "description": "12일(현지시각) 일어난 마이크로소프트 365 장애를 미끼로 쓴 피싱 메일이 돌고 있다. 마이크로소프트는 이 공격을 공식 경고했다.마이크로소프트 위협 인텔리전스 팀은 13일부터 이 메일들을 포착했다. 메일은 장애 동안 받지 못하고 서버에 쌓여 있던 메일이 24시간 안에 삭제된다며, 복구하려면 링크를 누르라고 재촉했다. 장애로 고객 메일이나 결제 연락을 놓쳤을까 걱정하던 직장인이라면 서두르기 쉬운 내용이다.가짜 메일은 마이크로소"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "한국생산성본부인증원, 이재근 신임 원장 취임... “국내 최고 ISMS-P 인증 기관 도약”",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147290",
-      "published": "2026-11-16 13:34:00",
-      "description": "한국생산성본부인증원을 이재근 신임 원장이 새로 이끈다. 이 신임 원장은 이번 취임을 계기로 국내 최고의 정보보호 및 개인정보보호 관리체계(ISMS-P) 인증심사 기관으로 도약하겠다는 포부다. 한국생산성본부인증원은 16일 이 신임 원장 취임을 계기로 국내 최고 ISMS-P 인증 심사 기관 및 정보보호, 인공지능(AI) 전문 기관으로서 한 단계 도약하기 위한 본격적인 행보에 나선다고 밝혔다. 인증원은 사이버 위협이 날로 고도화되고"
+      "title": "금융당국 ‘580개 금융사 보안 전수점검’ 본격화... 연말 CEO 서명 제출",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147309",
+      "published": "2026-11-16 17:33:27",
+      "description": "금융감독원이 지난 5일 금융위원회가 발표한 전 금융권 보안 강화 방안의 후속 조치로, 오는 12월 31일까지 대표이사(CEO) 서명을 받은 외부 접점 및 내부통제 전수점검 결과를 제출하라는 지침을 내놨다.금감원 디지털금융총괄부는 16일 금융권 대상 ‘외부 접점 전수점검 및 내부통제 점검’ 설명회를 열고 구체적인 점검 기준과 제출 일정을 안내했다. 앞서 금융당국은 지난 5일 서울 여의도 금융보안원에서 열린 ‘AI 시대 보안 체계"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "공공기관 양자 위협, 이렇게 대비하라... 국정원, 양자 시대 대비 암호 사용 지침 제시",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147297",
-      "published": "2026-11-16 13:28:09",
-      "description": "보안 강도가 112비트 이하인 대칭 키 암호는 2031년 1월부터 사용이 제한된다. 양자내성암호(PQC) 전환을 위해 우선 기관에서 쓰이는 공개 키 암호 사용 현황을 파악할 필요가 있다. 국가정보원은 16일 국가보안기술연구소와 함께 이같은 내용의 국가·공공기관 ‘암호 안전성 기준’과 ‘양자내성암호 전환 가이드북’을 공개했다. 양자 컴퓨터 발전에 따른 현행 암호 기술 무력화에 대응하기 위한 PQC 전환 추진 계획의 일환이다. 정"
+      "title": "ZKTeco, AI 자율주행 순찰로봇 ‘RobotGo’ 시리즈 출시",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147312",
+      "published": "2026-11-16 17:30:00",
+      "description": "글로벌 보안·출입통제 전문기업 ZKTeco가 AI 기반 자율주행 순찰로봇 신제품 ‘RobotGo-Mini’와 ‘RobotGo-Max’를 선보이며 지능형 순찰 및 공간관리 시장 확대에 나섰다. 새롭게 출시된 RobotGo 시리즈는 바퀴와 다리의 장점을 결합한 하이브리드 이동 방식을 채택하고 AI 영상분석 기술을 접목해 단순 순찰을 넘어 현장 상황을 스스로 인식·분석하는 차세대 보안 플랫폼으로 개발됐다.RobotGo-Mini는 강"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "“일·생활 균형, 인재 역량 발휘 기반”...  AI스페라, ‘워라밸 포인트 기업’ 선정",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147294",
-      "published": "2026-11-16 13:18:00",
-      "description": "“일·생활 균형은 인재가 장기적으로 역량을 발휘할 수 있는 기반입니다.”사이버 위협 인텔리전스 플랫폼 ‘크리미널 IP’(Criminal IP)를 운영하는 AI스페라(AI SPERA, 대표 강병탁)가 일·생활 균형 기업으로 인정받았다.AI스페라는 16일 서울시가 운영하는 ‘중소기업 워라밸 포인트제’ 기업에 선정됐다고 발표했다.‘서울시 중소기업 워라밸 포인트제’는 서울 소재 중소기업의 출산·양육 친화 및 일·생활 균형을 위한 제도"
+      "title": "‘AI 콜센터’ 메타엠 해킹... 병원 등 150개 고객사 공급망 위협 잠재",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147307",
+      "published": "2026-11-16 17:25:00",
+      "description": "AI 고객 상담센터 서비스 기업인 메타엠이 해킹을 당했다. 이 곳의 AI 상담 서비스를 이용하는 150개 고객사에 공급망 위협이 잠재된 셈이다. 실제로 가상자산 거래소, 중고거래 장터, 병원 등 다양한 분야의 고객사들이 메타엠에 개인정보를 위탁하고 있다. 이에 연쇄 개인정보 유출로 이어질 수 있다는 우려가 제기된다.개인 연락처에 상담내용까지… 코인원·번개장터 유출16일 메타엠에 따르면 외부의 불법적인 접근으로 고객사의 고객상담"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "KT텔레캅, 창립 20주년 맞아 ‘AX 보안기업’ 비전 선포",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147288",
-      "published": "2026-11-16 13:15:00",
-      "description": "KT그룹 보안전문기업 KT텔레캅(대표 서영수)이 창립 20주년을 맞아 기념행사를 개최하고, 고객의 일상을 케어하는 ‘AX(AI Transformation) 보안기업’으로의 도약 비전을 선포했다. AI와 케어(Care) 기술을 기반으로 지능형 보안 서비스를 강화하고 돌봄 사업까지 확대해 새로운 성장동력을 확보한다는 전략이다.KT텔레캅은 최근 임직원이 참석한 가운데 ‘스무살 생일파티’를 주제로 20주년 기념행사를 진행했다. 행사에"
+      "title": "벨로크, 3분기 보안서비스 매출 39.4% 성장 “4분기 성수기 효과로 연간 흑자전환”",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147306",
+      "published": "2026-11-16 17:12:00",
+      "description": "벨로크가 올해 3분기 누적 매출액 161억1000만원, 영업손실 14억8000만원을 기록했다. 일시적 수주 공백으로 조정을 거쳤으나 반복 매출 기반의 보안서비스 매출이 전년 동기 대비 39.4% 늘었고, 4분기 성수기 효과와 차세대 안티드론 신사업을 앞세워 연간 흑자전환을 추진한다.벨로크는 13일 이 같은 내용의 3분기 누적실적을 발표했다. 1~3분기는 보안 업계의 계절적 비수기로 꼽히는 시기로, 벨로크 역시 지난해 3분기 누"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "명지대, 국방 우주 분야 교육·연구 위해 美 ISR 업체 ‘맞손’",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147292",
-      "published": "2026-11-16 13:10:34",
-      "description": "명지대학교 방산안보연구소가 국방 우주 분야 전문 교육과 연구를 위해 미국 국방우주·정보감시정찰(ISR) 분야 전문 기업과 힘을 합치기로 했다. 명지대학교는 지난 11일 미국 ISR 분야 전문 기업 ‘Integrity ISR’과 국방 우주 전문인력 양성 및 인공지능(AI) 기반 우주정보 활용 역량 강화를 위한 양해각서를 체결했다고 밝혔다. 양 기관은 국방우주 분야의 전문교육과 공동 연구를 위한 협력체계를 구축한다는 계획이다. 이"
+      "title": "기업·기관 아닌 ‘일반인’도 노린다... ‘픽스’ 계열 공격 주의보",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147305",
+      "published": "2026-11-16 17:10:00",
+      "description": "익숙한 화면을 표시하고 속여 악성코드를 실행하거나 정보를 탈취하는 사회공학적 공격 사례가 계속해서 발견되고 있다. 특히 가짜 ‘로봇인증’(CAPCHA, 캡차)을 표시하고 악성 명령어를 사용자가 직접 입력하도록 유도하는 ‘클릭픽스’(ClickFix) 공격 등 ‘픽스’(Fix) 계열 공격이 성행하고 있다. 이에 전문가들은 인터넷 사용자는 물론 기업 및 기관의 침해사고 예방을 위한 각별한 주의가 필요하다고 당부한다. 16일 보안업계"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "엔클라우드, 삼척시 체육시설에 AI 클라우드 영상관제 서비스 구축",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147210",
-      "published": "2026-11-16 13:10:00",
-      "description": "클라우드 전문기업 엔클라우드(대표 김원헌)가 강원특별자치도 삼척시 체육시설에 AI 기반 클라우드 영상관제 서비스를 구축하고 공공시장 확대에 나선다. 기존의 구축형 CCTV 관제시스템과 달리 클라우드 환경에서 영상을 통합 관리하는 방식으로, 공공시설의 영상관제 운영에 새로운 선택지를 제시한다.엔클라우드는 지난 1월 삼척시 체육시설을 대상으로 클라우드 네이티브 AI 영상관제 서비스 ‘더엔’(The N) 구축을 완료했다. 이번 사업"
+      "title": "이노뎁, 3분기 영업익 흑자전환... 연결 기준 연간 흑자·주주환원 본격화",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147308",
+      "published": "2026-11-16 16:50:35",
+      "description": "AI 영상관제 플랫폼 전문기업 이노뎁이 올해 3분기 별도 기준 영업이익 흑자전환에 성공하며 수익성 회복에 청신호를 켰다. 고정비 절감과 유지보수 사업 확대를 통한 체질 개선 효과가 본격화된 가운데 공공 AI 전환(AX), 민간 산업시설, 로봇 관제 등 신규 시장 진출도 속도를 내고 있다.이노뎁의 3분기 별도 기준 매출액은 125억5000만원으로 전년 동기 대비 6.5% 증가했다. 영업이익은 1억5000만원을 기록하며 지난해 같"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "티피링크 타포, 유·무선 전원 지원 스마트 비디오 도어벨 ‘Tapo D235L’ 출시",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147287",
-      "published": "2026-11-16 13:04:19",
-      "description": "티피링크(한국 지사장 레븐 장)의 스마트홈 브랜드 ‘타포’(Tapo)가 배터리와 유선 전원 방식을 모두 지원하는 스마트 비디오 도어벨 ‘Tapo D235L’을 국내 시장에 출시한다. 설치 환경에 따라 전원 공급 방식을 선택할 수 있으며, 온디바이스 AI 기반 객체 인식과 고화질 영상 녹화 기능을 갖춘 것이 특징이다.Tapo D235L은 2K 500만 화소 영상과 180° 초광각 시야각을 지원한다. 방문객의 얼굴뿐 아니라 전신과"
+      "title": "행안부 이메일 시스템 SSO 털렸다... 300개 계정 비정상 접근",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147304",
+      "published": "2026-11-16 16:40:00",
+      "description": "행정안전부의 업무용 이메일 시스템에 외부인의 비정상적인 접근이 감지돼 정부가 점검에 착수했다. 연말까지 원인을 규명하고 보안 대책을 마련한다는 계획이다. 행정안전부는 9일 유관기관으로부터 행정기관의 업무용 이메일 등에 대한 외부 해킹 사실을 통보받고, 정확한 사고 원인과 피해 현황을 파악하기 위해 관계기관 합동점검에 착수했다고 16일 밝혔다. 현재까지 확인된 바에 따르면 공격자는 일부 지방정부의 취약한 네트워크를 통해 국가정보"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "일본 오사카시, 외부 업체 해킹으로 이메일 주소 100만건 유출",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147279",
-      "published": "2026-11-16 13:02:32",
-      "description": "일본 오사카시 온라인 행정 서비스 이용자의 이메일 주소 100만건 이상이 외부 업체 해킹으로 유출됐다. 오사카시는 이 사실을 알리고 시민들에게 수상한 메일을 조심하라고 당부했다.유출은 시 시스템이 아니라 외부 서비스에서 일어났다. 플랫폼 관리 업체 TKC가 메일 발송에 쓰던 서비스 아라라(Arara)가 해킹당했다.시는 2026년 7월~10월 31일 오사카시 시스템에서 메일을 받은 사람이라면 주소가 유출됐다고 밝혔다. 아울러 오"
+      "title": "연쇄 침해 겪은 대학가... “사립대 보안 사각지대·연구망 정보 수집 위협 살펴야”",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147302",
+      "published": "2026-11-16 16:35:32",
+      "description": "국내 대학 28곳의 산학·연구 시스템 데이터가 외부 해킹 포럼에 유포된 데 이어 올해 주요 대학에서도 침해사고가 잇따랐다. 대학 부설 연구소 등을 겨냥한 ‘테킨트’(TECHINT) 기반 정보 수집 위협에 대학 보안을 국가 안보 차원에서 살펴야 한다는 지적이 나온다. 최근 해외 해킹 포럼과 텔레그램 채널에 국내 28개 대학 31개 시스템의 내부 데이터(3.44GB)가 게시됐다. 앞서 지난 8월 11일 공격을 받은 서강대는 사흘 "
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "Fortinet 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72308",
+      "published": "2026-11-16",
+      "description": ""
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "Git 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72307",
+      "published": "2026-11-16",
+      "description": ""
     },
     {
       "source": "kisa",
@@ -155,22 +171,6 @@
       "title": "React 서버 컴포넌트 보안 업데이트 권고",
       "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72298",
       "published": "2026-11-12",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "Ivanti 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72297",
-      "published": "2026-11-11",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "MongoDB 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72296",
-      "published": "2026-11-11",
       "description": ""
     }
   ],
