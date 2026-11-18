@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T16:00:19.659Z",
+  "updatedAt": "2026-11-18T00:57:43.126Z",
   "sources": [
     {
       "source": "boannews",
@@ -13,6 +13,38 @@
     }
   ],
   "items": [
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "오라클, ‘자바4셸’ 등 RCE 취약점 11건 긴급 패치... “즉시 업데이트 필수”",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147336",
+      "published": "2026-11-18 08:08:26",
+      "description": "국내는 물론 전 세계적으로 인프라 전반에서 광범위하게 사용되는 자바(Java) 생태계에 또다시 대형 보안 경고등이 켜졌다. ‘자바4셸’(Java4Shell, CVE-2026-114938)에 대한 오라클의 공식 보안 업데이트가 마침내 배포됐다. 오라클을 비롯한 한국인터넷진흥원(KISA) 등 관계기관에서는 17.0.21.1, 21.0.13.1과 같은 최신 패치 빌드로 즉시 전환할 것을 권고했다. 오라클(Oracle)은 17일(현지"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "PHP 이어 ‘자바’(Java)도 뚫렸다... 대기업·공공기관 핵심 서버 ‘보안 경보’",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147325",
+      "published": "2026-11-18 07:05:00",
+      "description": "대부분 IT 시스템에 널리 쓰이는 프로그래밍 언어 자바(Java)에서 치명적 보안 취약점이 발견됐다. 이 취약점을 악용하면 공격자는 로그인 등 인증 절차를 거치지 않아도 원격으로 시스템 내부에서 악성코드를 실행할 수 있다. 위험도 역시 최고 수준으로 분류됐다. 패치 공개 즉시 조치에 들어가야 한다. 17일 보안 업계에 따르면, 자바에서 메모리 손상 취약점이 발견됐다. 이 취약점을 악용하면 자바 애플리케이션에서 인증 이전에 원격"
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "Oracle 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72313",
+      "published": "2026-11-18",
+      "description": ""
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "프로젝트 끝나고 안 지운 키... 바라쿠다 클라우드, AI 해킹 도구에 44시간 뚫려",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147316",
+      "published": "2026-11-17 19:45:00",
+      "description": "네트워크·이메일 보안 기업 바라쿠다의 클라우드 환경이 11월 초 침해됐다. 공격자는 훔친 클라우드 접속 키로 들어와 오픈소스 AI 침투 테스트 도구 아르텍스(ARTEX)로 내부를 휘젓고 다녔다.공격자는 11월 1~2일 44시간 동안 클라우드 계정 10개가량에 접근했다. 침입은 4일 발견됐다. 바라쿠다는 조사 결과 아르텍스가 쓰인 이번 공격을 ‘기계 속도 침입’이라고 불렀다.출발점은 바라쿠다가 예전 프로젝트 기간에 외부 AI 업"
+    },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
@@ -68,30 +100,6 @@
       "link": "https://www.boannews.com/news/articleView.html?idxno=147331",
       "published": "2026-11-17 15:52:49",
       "description": "한국정보처리학회 ESG 연구회는 17일 국회 의원회관 제2세미나실에서 창립 기념 세미나 ‘AI 시대, ESG가 가야 할 길’을 개최했다.더불어민주당 이재강 국회의원, 한국정보처리학회, ESG 연구회가 공동으로 주최 및 주관했다. 기업의 ESG 대응 과정에서 정보기술의 활용 가능성을 살펴보고, 전문가 발제와 공공기관 사례를 바탕으로 실무 과제와 협력 방향을 논의했다.행사 사회는 배정현 한국공공ESG연구원 원장이 맡았다. 이재강 "
-    },
-    {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "파수 AI, ‘FDI 서밋 2026-하반기’서 AI 에이전트 구축·통제 해법 공개",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147330",
-      "published": "2026-11-17 15:44:29",
-      "description": "파수 AI가 17일 ‘FDI 서밋 2026-하반기’를 열고 안전한 AI 가치 극대화 전략을 제시했다.FDI 서밋 2026(Fasoo Digital Intelligence Summit 202)은 기업과 기관의 CIO·CISO·CAIO를 대상으로 최신 트렌드와 보안 대응 전략을 공유하는 세미나다. ‘안전한 AI 가치 극대화 전략’(Maximizing Value from AI Securely)을 주제로 진행된 이날 행사는 금융·유통"
-    },
-    {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "메타엠 해킹에 ‘메가커피’ 고객 정보도 털려... 휴대전화번호 30건 유출",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147329",
-      "published": "2026-11-17 15:12:13",
-      "description": "협력사 해킹으로 메가MGC커피(메가커피)에서 고객 30명의 개인정보가 유출되는 사고가 발생했다. 메가커피는 17일 공지사항에서 “회사의 고객센터 시스템을 운영하는 위탁업체 메타엠이 외부 해킹 공격을 받아 고객센터와 통화한 고객 일부의 휴대전화번호 30건이 유출된 것으로 확인됐다”며 “고객센터에 접수를 남긴 고객 정보도 유출됐을 가능성이 있다”고 밝혔다. 메타엠은 12일 외부 공격으로 서버가 해킹 공격을 당했다. 이후 메가커피에"
-    },
-    {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "그룹웨어 ‘다우오피스’ PC 메신저 업데이트 보안 사고... 계정 정보 유출 가능성↑",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147323",
-      "published": "2026-11-17 14:51:35",
-      "description": "그룹웨어 다우오피스(DaouOffice) 메신저 업데이트 서버를 통해 악성코드가 배포된 정황이 확인되면서 기업 PC를 통한 정보 유출 우려가 커졌다. 다우오피스는 15일 오후부터 16일 오전 사이 윈도우 PC메신저 자동 업데이트 과정에서 불상의 해커에 의해 일부 PC에 악성 파일이 설치됐다고 17일 밝혔다. 맥(Mac) 버전과 모바일 앱은 사고 대상에서 제외됐다.악성 파일이 삽입된 메신저를 업데이트한 PC에서 크롬이나 에지 등"
     },
     {
       "source": "kisa",
@@ -162,14 +170,6 @@
       "sourceLabel": "KISA 보호나라",
       "title": "WordPress 플러그인 보안 업데이트 권고",
       "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72303",
-      "published": "2026-11-12",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "Node.js 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72302",
       "published": "2026-11-12",
       "description": ""
     }
