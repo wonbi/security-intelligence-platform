@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T01:19:56.578Z",
+  "updatedAt": "2026-11-22T11:25:59.895Z",
   "sources": [
     {
       "source": "boannews",
@@ -13,6 +13,22 @@
     }
   ],
   "items": [
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "한전, ‘한전ON’·조달망 뚫려 개인정보 152만여건 유출... 주민번호·카드번호까지 털려",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147429",
+      "published": "2026-11-22 19:57:10",
+      "description": "한국전력공사(한전)의 고객 서비스 플랫폼 ‘한전ON’과 전자조달시스템(SRM)이 사이버 공격을 받아 총 152만여건의 개인정보가 유출됐다.한전은 22일 한전ON 이용자 65만487명과 구매·공사·용역 업무에 쓰는 전자조달시스템 이용자 86만9761명 등 총 152만248건의 개인정보 유출 사실을 확인했다고 밝혔다. 한전ON에서는 전기사용 고객의 △고객번호 △성명 △고유식별정보(주민·외국인등록번호) △전화번호 △주소 △은행명 △"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "블랙다이아몬드 코리아, 공급망 피해로 개인정보 유출 가능성 안내 “택배 사칭 주의”",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147428",
+      "published": "2026-11-22 15:55:12",
+      "description": "블랙다이아몬드 코리아가 주문·배송용 외부 통합 전사적 자원관리(ERP) 서버의 비정상 접근 정황을 통보받고 개인정보 유출 가능성을 공지했다.미국 아웃도어 기업의 한국 지사인 블랙다이아몬드 코리아는 지난 20일 공식 홈페이지에 ‘출고 시스템 점검으로 인한 발송 지연’ 제목의 긴급공지를 올려 외주 주문 시스템 침해사고 경위를 밝혔다. 회사에 따르면 지난 19일 외부 통합 ERP 서비스사 서버에서 외부인의 비정상 접근 정황이 확인됐"
+    },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
@@ -76,22 +92,6 @@
       "link": "https://www.boannews.com/news/articleView.html?idxno=147391",
       "published": "2026-11-20 15:30:00",
       "description": "PC 보안 업계의 화두는 ‘에이전트 다이어트’다. 업무용 PC 한 대에 겹겹이 쌓인 보안 프로그램을 덜어내자는 것이다. 그런데 다이어트를 외치는 사이에도 PC에는 새 에이전트가 올라간다. 생성형 AI로 중요 정보가 새어 나가는 걸 막겠다는 보안 기능이 대표적이다. 줄여야 한다는 데는 모두 동의하지만, 무엇을 줄일지에 대한 답은 아직 없다.현장의 생각도 비슷하다. 보안 담당자들은 기능별 제품을 따로 운영하는 지금의 방식에서 벗어"
-    },
-    {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "‘PHP2셸’ 후속 ‘PHP애프터셸’ 등장... 상위 버전 재패치 필요",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147415",
-      "published": "2026-11-20 15:22:09",
-      "description": "전 세계 70%에 달하는 웹사이트와 기업 백엔드 시스템의 기반이 되는 PHP에서 다시 한 번 굵직한 보안 패치가 발표됐다. 지난달 발견된 ‘PHP2셸’(PHP2Shell)에 대응하는 패치를 적용했더라도 이번에 공개된 보안 취약점은 그 이상의 패치 버전을 요구하고 있기 때문에 다시 한 번 대대적인 패치가 적용될 필요가 있어 보인다. PHP개발진은 19일 17건의 CVE(공개 취약점)에 대응하는 패치 버전을 발표했다. 8.5.13"
-    },
-    {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "센스톤 ‘OTAC TAG’, 백악관·텍사스 추진 ‘수도 인프라 사이버 방어’ 프로젝트 합류",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147416",
-      "published": "2026-11-20 14:46:41",
-      "description": "OT 보안 전문기업 센스톤(대표 유창훈)이 미국 텍사스 사이버사령부(Texas Cyber Command, 이하 TXCC)가 주관하는 핵심 인프라 보호 프로젝트 ‘Project Watershed 250’에 OTAC(One-Time Authentication Code) 기술로 참여한다.센스톤은 미국 산업·핵심 인프라 보안 전문기업 어플라이드 시큐리티 컨버전스(Applied Security Convergence, 이하 ASC)가 이"
     },
     {
       "source": "kisa",
