@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T19:41:47.266Z",
+  "updatedAt": "2026-11-23T01:43:28.086Z",
   "sources": [
     {
       "source": "boannews",
@@ -13,6 +13,22 @@
     }
   ],
   "items": [
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "이스트시큐리티, 앤트로픽 사이버 검증 프로그램 ‘CVP’ 합류",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147431",
+      "published": "2026-11-23 09:17:35",
+      "description": "이스트소프트 보안 전문 자회사 이스트시큐리티(대표 정상원)가 앤트로픽이 추진하는 ‘사이버 검증 프로그램’(CVP)에 합류한다. 이스트시큐리티는 CVP 합류를 통해 앤트로픽 클로드를 활용해 자사 소프트웨어 및 시스템의 취약점 연구를 강화하고, 연구 결과를 ‘알약 에이전틱 엔드포인트 탐지 및 대응(EDR)’ 등 보안 제품 역량 강화에 반영하겠다고 23일 밝혔다. CVP는 앤트로픽이 검증된 보안 전문가와 조직의 사이버 방어 업무를 "
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "Ascensio System 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72321",
+      "published": "2026-11-23",
+      "description": ""
+    },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
@@ -86,14 +102,6 @@
       "description": "조달청(청장 백승보)은 11월 20일 서울지방조달청에서 한국정책학회와 공동으로 ‘공공조달의 오늘과 내일: 2026년 성과와 AI 시대의 미래전략’ 세미나를 개최했다.이번 세미나는 인공지능(AI)과 데이터 등 급변하는 기술 환경에 대응해 공공조달의 새로운 역할과 중장기 발전 방향을 모색하기 위해 마련됐다. 현장에서는 공급망 안정과 공정한 조달시장 질서 확립 등 핵심 정책과제를 점검하고, 데이터·AI를 활용한 조달행정 지능화 및 "
     },
     {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "[2026 PC 보안 솔루션 리포트] ‘에이전트 다이어트’ 나선 PC 보안, 덜어낼 것과 남길 것",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147391",
-      "published": "2026-11-20 15:30:00",
-      "description": "PC 보안 업계의 화두는 ‘에이전트 다이어트’다. 업무용 PC 한 대에 겹겹이 쌓인 보안 프로그램을 덜어내자는 것이다. 그런데 다이어트를 외치는 사이에도 PC에는 새 에이전트가 올라간다. 생성형 AI로 중요 정보가 새어 나가는 걸 막겠다는 보안 기능이 대표적이다. 줄여야 한다는 데는 모두 동의하지만, 무엇을 줄일지에 대한 답은 아직 없다.현장의 생각도 비슷하다. 보안 담당자들은 기능별 제품을 따로 운영하는 지금의 방식에서 벗어"
-    },
-    {
       "source": "kisa",
       "sourceLabel": "KISA 보호나라",
       "title": "VMware 제품 보안 업데이트 권고",
@@ -162,14 +170,6 @@
       "sourceLabel": "KISA 보호나라",
       "title": "PostgreSQL 제품 보안 업데이트 권고",
       "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72310",
-      "published": "2026-11-17",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "MongoDB 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72309",
       "published": "2026-11-17",
       "description": ""
     }
