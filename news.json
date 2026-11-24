@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T13:44:08.453Z",
+  "updatedAt": "2026-11-24T23:53:51.543Z",
   "sources": [
     {
       "source": "boannews",
@@ -13,6 +13,14 @@
     }
   ],
   "items": [
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "양자보안 산학연 전문가 한자리에… 한국정보보호학회 양자보안워크숍 워크숍 개최",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147422",
+      "published": "2026-11-25 08:30:00",
+      "description": "산학연 양자 보안 분야 연구자와 전문가가 모여 양자 보안 최신 기술 동향을 공유하는 자리가 열린다. 한국정보보호학회(회장 김호원)는 내달 3-4일 강릉 스카이베이호텔에서 양자보안연구회 하반기 워크숍을 개최한다고 25일 밝혔다. 양자보안워크숍은 한국정보보호학회가 주관하는 대표 학술행사 중의 하나다. 양자키분배(QKD)와 양자내성암호(PQC)로 대변되는 양자보안 기술 최신 동향을 공유하고 산업계･학계･연구계 교류 활성화를 위해 매"
+    },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
@@ -84,14 +92,6 @@
       "link": "https://www.boannews.com/news/articleView.html?idxno=147494",
       "published": "2026-11-24 15:09:24",
       "description": "김종덕 포티넷코리아 지사장이 24일 그랜드 인터컨티넨탈 서울 파르나스에서 열린 ‘포티넷 AI 사이버보안 서밋 APAC 2026’에서 통합 플랫폼 중심의 AI 보안 비전을 밝혔다. AI·클라우드 업계를 거쳐 최근 합류한 그는 방화벽 중심의 인식을 넘어 자체 운영체제 기반 통합 플랫폼으로 AI 에이전트 시대의 보안 난제를 풀겠다고 강조했다.김 지사장은 이날 환영사에서 기업 보안의 중심축이 대규모언어모델(LLM)에서 AI 에이전트로"
-    },
-    {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "한국 주도 패스워드리스 국제표준, 타지키스탄 민간으로 확산",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147495",
-      "published": "2026-11-24 15:00:24",
-      "description": "패스워드리스 얼라이언스(Passwordless Alliance, 대표 우종현)는 10일 타지키스탄 두샨베에서 국제표준 ITU-T X.1280 기반 패스워드리스 인증 기술을 주제로 세미나를 개최했다고 밝혔다.이번 세미나는 타지키스탄 정부 산하 통신청과 현지 통신사업자 토직텔레콤(TojikTelecom)·텔레콤젠(TelecomZehn), 패스워드리스 얼라이언스가 공동 주관했다. 현지 IT파크 입주기업과 대학, 일반 기업 관계자 등"
     },
     {
       "source": "kisa",
