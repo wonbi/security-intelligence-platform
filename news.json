@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T02:12:41.851Z",
+  "updatedAt": "2026-11-24T13:44:08.453Z",
   "sources": [
     {
       "source": "boannews",
@@ -16,82 +16,106 @@
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "지란지교소프트 ‘PC필터’, 日 핵심 업무용 SaaS 부문 선진기술상 받아",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147484",
-      "published": "2026-11-24 11:06:40",
-      "description": "지란지교소프트(대표 박승애·유병완)는 일본 ‘ASPIC AI 클라우드 어워드 2026’ 클라우드 서비스 기간업무계 부문에서 선진기술상을 수상했다고 24일 밝혔다. 지란지교 그룹의 일본 관계사 제이시큐리티(JSecurity)가 현지에 PC필터 클라우드 서비스를 공급하고 있다.이번 행사는 일본클라우드산업협회(ASPIC)가 주최하고 일본 총무성 등이 후원하며 올해 19회째다. 협회는 올해 생성형 AI용 AI 클라우드 서비스 부문을 "
+      "title": "[부고] 안기동 유넷시스템즈 대표이사 부친상",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147504",
+      "published": "2026-11-24 20:55:53",
+      "description": "△내용: 안기동 유넷시스템즈 대표이사 부친상△빈소: 서울성모병원 장례식장 12호실△발인: 2026년 11월 26일(예정)"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "몸값 내지 말라던 복구 업체의 두 얼굴... FBI 함정에 걸려 사기 혐의 기소",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147437",
-      "published": "2026-11-24 10:37:09",
-      "description": "랜섬웨어 피해 기업에 몸값을 내지 않고도 데이터를 되살려 준다고 홍보해 온 미국 복구 업체의 공동 창업자가 뒤로는 해커에게 돈을 주고 복호화 키를 사들인 혐의로 기소됐다.크렙스온시큐리티는 후안 리카르도 팔라시오 에스코바르(Juan Ricardo Palacio Escobar) 랜섬웨어헬프(ransomwarehelp.com) 공동 창업자가 전신 사기 혐의로 기소됐다고 최근 보도했다. 랜섬웨어헬프는 플로리다의 6년 차 업체다. 팔라"
+      "title": "“AI 무게중심 ‘답변’→‘행동’ 이동... 기존 업무 병목 70% 자동화될 것”",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147502",
+      "published": "2026-11-24 18:27:15",
+      "description": "인공지능(AI)의 무게중심이 ‘질문에 답하는 단계’에서 ‘목표를 실행하는 단계’로 옮겨가고 있다는 분석이 나왔다. 기존 업무 시간 병목의 70%를 차지하는 정형 실행 업무를 자동화할 수 있다는 전망도 나온다. AI가 질문에 단순히 대답을 하는 단계에서 나아가 실제 행동과 배달·예약 같은 생활 영역 등 ‘목표 설정·자율 실행(AI Agent)’으로 이동하고 있다는 분석이다.신인식 플루이즈 대표 겸 한국과학기술원(KAIST) 소프"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "LG유플러스, 데이터독과 손잡고 ‘익시오’ 장애 대응·품질 고도화",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147479",
-      "published": "2026-11-24 10:15:51",
-      "description": "LG유플러스가 데이터독과 손잡고 자사 AI 통화 에이전트 ‘익시오’(ixi-O) 운영 체계를 개선한다고 24일 밝혔다.LG유플러스는 글로벌 옵저버빌리티(Observability) 플랫폼 기업 데이터독(Datadog)의 ‘비츠 AI’(Bits AI)를 익시오 운영에 적용해 고객 불편과 장애 대응 역량을 검증했다. 비츠 AI는 서비스 운영 과정에서 나오는 데이터를 AI로 분석해 이상 징후를 찾고 문제 원인과 영향 범위를 파악하는 "
+      "title": "포커스에이아이, 전자기기·무선신호·영상분석 결합한 시험 부정행위 방지 솔루션 개발",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147501",
+      "published": "2026-11-24 18:03:40",
+      "description": "포커스에이아이(대표 구형모)가 한국AI·SW테스팅협회와 협력해 인공지능(AI) 기반 시험 부정행위 방지 솔루션을 개발한다고 24일 밝혔다.최근 AI 스마트안경과 초소형 전자기기를 활용한 시험 부정행위가 잇따르면서 기존 육안 중심의 감독 방식에 한계가 드러나고 있다. 특히 전자기기 반입 여부 확인뿐 아니라 시험 중 외부 통신이나 의심 행동을 종합적으로 파악할 수 있는 보안 체계의 필요성이 커지고 있다.포커스에이아이는 △전자기기 "
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "비자, 위협 인텔리전스 플랫폼 출시... 월 9000만건 공격 차단 역량 담아",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147474",
-      "published": "2026-11-24 10:03:11",
-      "description": "비자는 금융 분야 특화 위협 정보를 제공하는 ‘비자 위협 인텔리전스 플랫폼’(VTIP: Visa Threat Intelligence Platform)을 아태 지역에 출시한다고 24일 밝혔다. 사이버 인텔리전스와 결제 인텔리전스를 결합한 플랫폼으로, 금융기관의 사이버 위협 탐지와 부정거래 대응을 지원한다. VTIP는 비자가 자사 글로벌 결제 네트워크 보호에 쓰는 보안 역량을 바탕으로 금융 부문에 특화해 설계됐다. 비자는 200개"
+      "title": "포티넷, “AI 에이전트 위협 현실화” 단일 보안 패브릭으로 거버넌스·관제 통합",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147500",
+      "published": "2026-11-24 17:42:04",
+      "description": "포티넷이 24일 서울 강남구 그랜드 인터컨티넨탈 서울 파르나스에서 ‘포티넷 AI 사이버보안 서밋 APAC 2026’을 열고, AI 에이전트 시대의 통합 보안 전략을 공개했다. ‘AI가 만들어가는 사이버 보안의 새로운 현실’을 주제로 열린 행사에서는 다크웹 위협 지형부터 단일 보안 패브릭, 에이전트 런타임 통제, 자율 보안운영센터(SOC), 파트너 인프라 연계 방안까지 전 주기 보안 청사진이 제시됐다.김종덕 포티넷코리아 지사장은"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "‘rERP’ 해킹, 파장은?... 약한 고리 대학 노린 ‘산학연’ 전체 위기",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147469",
-      "published": "2026-11-24 09:43:01",
-      "description": "최근 연구행정통합시스템(rERP) 집중 공격 형태로 국내 대학을 겨냥한 해킹 사고가 연쇄적으로 일어나면서, ‘산학연’ 가운데 약한 고리인 대학을 파고든 연구보안 공급망 위협이 심각한 문제로 떠오르고 있다. 23일 학계에 따르면, 최근 연쇄 해킹 피해로 다크웹에 게시된 28개 대학 목록에 포함된 학교들이 잇따라 개인정보 유출 공지를 하고 있다. 일부 대학은 공격 당한 rERP 운영 중단을 공지했다. “대학 서버 공격해 rERP "
+      "title": "[2026 보안 이슈 결산-2] 망분리 깬 AI 해킹 공격... 금융권, ‘자율·복원력’ 시동",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147449",
+      "published": "2026-11-24 17:30:00",
+      "description": "2026년 금융권은 AI 자동화 해킹이 현실로 다가오며, 물리적 망분리와 PC 설치형 보안 프로그램에 기대던 기존 방어 체계의 한계를 확인한 한 해였다. 상반기 ‘미토스’(Mythos) 쇼크에 이어 하반기 오픈소스 AI 해킹 도구 ‘아르텍스’(ARTEX)로 37개 금융사가 연쇄 침해를 겪었다. 금융당국은 연말 전 금융사 580곳에 대표이사(CEO) 서명 외부접점 전수점검으로 한 해를 매듭짓고, 내년 1분기 포스트 망분리 보안체"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "7월 생긴 결함 11월에야 탐지... 마이크로소프트 엔트라 모니터링 도구 악용돼 고객사 정보 노출",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147436",
-      "published": "2026-11-24 08:30:00",
-      "description": "마이크로소프트의 계정 관리 서비스 엔트라에 딸린 모니터링 도구에서 결함이 악용돼 공격자가 고객사 정보를 읽어 갔다. 결함은 7월 생겼지만 마이크로소프트가 알아챈 것은 11월이다.사이버시큐리티뉴스는 22일(현지시각) 레딧에 공유된 마이크로소프트 고객 공지를 인용해 이 사실을 보도했다. 공지에 따르면 공격자가 얻은 것은 조직 기록을 읽기만 할 수 있는 권한이었고, 메일함이나 메시지는 대상이 아니었다.문제의 도구는 엔트라 커넥트 헬"
+      "title": "포티넷 “10개월 만에 피해 규모 이미 작년 2.4배... 랜섬웨어 먹잇감 된 한국 기업”",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147499",
+      "published": "2026-11-24 17:12:32",
+      "description": "“다크웹 유출 사이트에 드러난 피해는 전체의 약 20%에 불과하고 나머지 80%는 대가를 지불해 수면 아래에 가려져 있다. 한국이 랜섬웨어 조직에 매우 수익성 높은 표적이 되고 있다.”카필 굽타(Kapil Gupta) 포티넷 보안 솔루션 부문 부사장은 24일 열린 ‘포티넷 AI 사이버보안 서밋 APAC 2026’에서 다크웹 인텔리전스를 기반으로 분석한 한국 표적 AI 위협 실태를 공개하며 이같이 경고했다. 포티넷이 다크웹 데이"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "정독도서관 개인정보 유출... 기프티콘 수령자 636명 이름·번호",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147470",
-      "published": "2026-11-23 18:40:55",
-      "description": "서울 종로구 소재 정독도서관에서 홈페이지 이용자 636명의 개인정보가 유출됐다. 기프티콘 수령자들의 이름과 전화번호가 노출된 것으로 파악됐다.23일 서울시교육청은 이용자 대상 문자공지에서 “2026년 정독도서관 홈페이지 이용자 만족도 설문조사에 참여한 이용자들의 개인정보가 유출된 사실을 확인했다”고 밝혔다. 현재는 설문 참여자 정보를 열람할 수 없도록 조치를 완료했다는 설명이다.유출된 항목은 설문조사에 참여한 636명(중복 포"
+      "title": "그린아이티코리아, AI 시험 부정행위 대응 비접촉 금속탐지기 ‘MDET’ 공급 확대",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147498",
+      "published": "2026-11-24 16:20:31",
+      "description": "그린아이티코리아가 인공지능(AI) 기술을 악용한 시험 부정행위에 대응하기 위해 신제품 인증(NEP)을 획득한 비접촉 정밀 금속탐지 솔루션 ‘엠데트’(MDET) 공급을 확대한다고 밝혔다.최근 대학과 국가자격시험, 기업 채용시험 등에서 AI 스마트안경과 초소형 무선 이어폰, 스마트워치 등을 활용한 부정행위가 문제로 떠오르고 있다. 일반 안경과 외형이 유사하거나 크기가 작은 전자기기는 감독관의 육안 검사만으로 식별하기 어렵다. 휴대"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "중국 연계 해커 AI 에이전트, 제로데이 찾아 대학 서버 장악",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147430",
-      "published": "2026-11-23 18:05:00",
-      "description": "아마존이 중국 연계로 지목한 공격자가 자율 AI 에이전트를 동원해 동아시아 대학 서버를 공격했다. 이 과정에서 에이전트는 아무도 몰랐던 소프트웨어 결함을 스스로 찾아내 서버를 장악했다. 사람의 개입은 최소한에 그쳤다.아마존 위협 인텔리전스는 최근 CJ 모지스(CJ Moses) 아마존 통합보안 최고정보보호책임자(CISO) 명의로 이 분석을 공개했다. 아마존은 AI 에이전트를 앞세운 공격이 이미 현실이 됐다고 밝혔다.아마존은 9월"
+      "title": "“대칭키 암호, ‘안전하다’ 아니라 ‘아직 깨지지 않았을 뿐’”... 제11차 양자보안포럼 개최",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147497",
+      "published": "2026-11-24 15:51:57",
+      "description": "“양자 컴퓨터 시대에도 대칭키 암호가 안전하다고 단정할 수 없습니다. ‘안전하다’가 아니라 ‘아직 깨지지 않았다’가 정확한 표현이며, 관건은 키 길이뿐만 아니라 암호 구조입니다.”김종성 국민대학교 사이버보안학과·정보보안암호수학과 교수는 24일 서울 시청 인근에서 열린 제11차 양자보안포럼에서 ‘양자 컴퓨터 시대, 대칭키 암호는 안전한가’를 주제로 발표하며 이같이 밝혔다. 양자내성암호(PQC) 전환 논의가 RSA 등 공개키 암호"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "보안 수요·공급·학계·법률·공공 전문가 머리 맞댄다... ‘KOTA’ 공식 출범",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147463",
-      "published": "2026-11-23 17:25:34",
-      "description": "정보보호 수요자와 공급자를 잇고, 학계·법률·공공 분야 전문가가 함께하는 보안 협력체계 ‘한국트러스트연합’(KOTA)이 공식 출범했다. KOTA는 23일 서울 한국프레스센터 프레스클럽에서 창립총회를 개최했다. KOTA는 보안 기술을 사용하는 수요자와 기술·서비스를 제공하는 기업, 학계·연구기관 및 전문가들이 힘을 모아 디지털 신뢰를 높이기 위해 설립된 연합체다. 보안은 개별 기업이나 단일 기술만으로는 해결하기 어려운 과제라는 "
+      "title": "김종덕 포티넷코리아 지사장 “방화벽만 센 회사 아냐... ‘포티OS’로 AI 보안 승부”",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147494",
+      "published": "2026-11-24 15:09:24",
+      "description": "김종덕 포티넷코리아 지사장이 24일 그랜드 인터컨티넨탈 서울 파르나스에서 열린 ‘포티넷 AI 사이버보안 서밋 APAC 2026’에서 통합 플랫폼 중심의 AI 보안 비전을 밝혔다. AI·클라우드 업계를 거쳐 최근 합류한 그는 방화벽 중심의 인식을 넘어 자체 운영체제 기반 통합 플랫폼으로 AI 에이전트 시대의 보안 난제를 풀겠다고 강조했다.김 지사장은 이날 환영사에서 기업 보안의 중심축이 대규모언어모델(LLM)에서 AI 에이전트로"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "한국정보통신자격협회-삼일공업고와 맞손 “AI 로봇 영상정보 보호 인재 육성”",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147462",
-      "published": "2026-11-23 16:52:07",
-      "description": "한국정보통신자격협회는 삼일공업고등학교와 피지컬 AI 인재 양성 협약을 체결했다고 23일 밝혔다. 양 기관은 AI 로봇 등 피지컬 AI 환경에 필요한 정보통신·클라우드 인프라와 정보보호·영상정보보호·개인정보보호 인재를 함께 양성하기로 했다.양 기관은 이번 협약으로 피지컬 AI 구현용 정보통신·클라우드 인프라 교육과 AI 로봇 시스템의 정보보호·영상정보보호·개인정보보호 교육에서 협력한다. 산학협력 교육과정 공동 개발과 자격 취득 "
+      "title": "한국 주도 패스워드리스 국제표준, 타지키스탄 민간으로 확산",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147495",
+      "published": "2026-11-24 15:00:24",
+      "description": "패스워드리스 얼라이언스(Passwordless Alliance, 대표 우종현)는 10일 타지키스탄 두샨베에서 국제표준 ITU-T X.1280 기반 패스워드리스 인증 기술을 주제로 세미나를 개최했다고 밝혔다.이번 세미나는 타지키스탄 정부 산하 통신청과 현지 통신사업자 토직텔레콤(TojikTelecom)·텔레콤젠(TelecomZehn), 패스워드리스 얼라이언스가 공동 주관했다. 현지 IT파크 입주기업과 대학, 일반 기업 관계자 등"
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "Splunk 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72326",
+      "published": "2026-11-24",
+      "description": ""
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "ConnectWise 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72325",
+      "published": "2026-11-24",
+      "description": ""
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "BeyondTrust 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72324",
+      "published": "2026-11-24",
+      "description": ""
     },
     {
       "source": "kisa",
@@ -147,30 +171,6 @@
       "title": "Oracle 제품 보안 업데이트 권고",
       "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72313",
       "published": "2026-11-18",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "Citrix 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72312",
-      "published": "2026-11-17",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "Check Point 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72311",
-      "published": "2026-11-17",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "PostgreSQL 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72310",
-      "published": "2026-11-17",
       "description": ""
     }
   ],
