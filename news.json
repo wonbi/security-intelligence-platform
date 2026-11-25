@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T08:35:06.542Z",
+  "updatedAt": "2026-11-25T19:17:02.265Z",
   "sources": [
     {
       "source": "boannews",
@@ -13,6 +13,62 @@
     }
   ],
   "items": [
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "[더존비즈온 사태] 11월25일 현황... 이스트시큐리티·담양군문화재단",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147544",
+      "published": "2026-11-25 18:22:21",
+      "description": "더존비즈온 침해사고로 이스트시큐리티와 담양군문화재단 등 2곳에서 개인정보 유출 가능성이 제기됐다. 먼저 이스트시큐리티는 이스트시큐리티 고객 및 파트너 담당자, 퇴직자 등 일부에 대한 성명, 연락처 정보다. 대상에 따라 주민등록번호나 계좌번호도 포함됐을 가능성이 나왔다.담양군문화재단은 더존비즈온 백업서버에 포함된 성명, 연락처, 이메일 등 정보가 유출됐을 가능성이 나왔다.다만 양사 모두 개인정보의 실제 유출 여부는 확인되지 않은"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "KAIST 사이버보안연구센터, AI 도박 탐지로 강원랜드 감사장",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147543",
+      "published": "2026-11-25 18:21:59",
+      "description": "KAIST 사이버보안연구센터가 25일 불법도박 탐지 공로로 강원랜드 감사장을 받았다.KAIST 사이버보안연구센터와 연구를 이끈 이경석 사이버범죄분석 팀장이 각각 감사장을 받았다.이 센터는 AI 기반 불법도박 탐지 시스템 ‘GT’(Gamble Tracker)와 유해사이트 생태계 전반을 다루는 ‘CCT’(Cyber Crime Tracker)를 개발했다. GT는 지난해 2월 강원랜드에 기술 이전돼 불법도박·유해사이트 탐지와 신고 대"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "더존비즈온 해킹에 보안기업도 유출 피해 우려... 이스트시큐리티 유출 가능성",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147542",
+      "published": "2026-11-25 18:05:30",
+      "description": "더존비즈온 백업서버 해킹으로 보안 기업에도 피해가 번질 우려가 나온다.이스트시큐리티는 23일 공지사항을 내고 “당사가 이용하는 더존비즈온 백업 서버가 해킹을 당한 정황이 확인됐다”며 “현재까지 실제 유출은 확인되지 않았으며, 데이터는 암호화돼 있었다”고 밝혔다.유출 가능성이 있는 항목은 이스트시큐리티 고객 및 파트너 담당자, 퇴직자 등 일부의 성명, 연락처 정보다. 대상에 따라 주민등록번호나 계좌번호도 포함됐을 가능성이 나왔다"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "인텔리빅스, 사족보행 로봇 ‘아르고스’로 건설현장 안전관리 사각지대 해소",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147540",
+      "published": "2026-11-25 17:50:22",
+      "description": "고정형 CCTV가 건설현장의 위험을 상시 감시한다면, 자율순찰로봇은 구조물과 장비에 가려진 사각지대를 직접 찾아간다. 인텔리빅스가 기존 AI 영상분석 기술에 로봇의 이동성을 결합해 건설현장 안전관리 영역을 확대한다.인텔리빅스는 11월 25일부터 27일까지 일산 킨텍스에서 열리는 ‘2026 스마트건설·안전·AI 엑스포’에 참가해 한국토지주택공사(LH) 전시부스에서 사족보행 자율순찰로봇 ‘아르고스’의 안전관리 기능을 시연한다고 2"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "MMORPG ‘다크에덴’서 개인정보 유출... 홈페이지 취약점 악용 공격에 당했다",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147539",
+      "published": "2026-11-25 17:49:13",
+      "description": "소프톤엔터테인먼트의 MMORPG 게임 ‘다크에덴’에서 개인정보가 유출됐다. 다크에덴 운영사는 25일 “21일부터 23일까지 홈페이지 취약점을 이용한 외부 해킹 공격으로 일부 데이터가 유출됐다”고 밝혔다. 유출 항목은 △아이디 △이름 △이메일 △성별 △중복가입확인정보(DI) △일부 로그인 인증 기록 △암호화된 비밀번호 변경 이력 등이다. 일부 회원의 경우 △1:1 문의 내역 △2차 비밀번호·OTP 변경 이력 △비밀번호 찾기 질문"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "또 날아온 금감원 ‘전수점검’... 보안인 ‘부글부글’ [엑셀로 보안하나요②]",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147533",
+      "published": "2026-11-25 17:40:22",
+      "description": "“자바 취약점 대응만으로도 밤을 샐 판인데, 점검 때문에 업무 마비입니다.”“한시라도 빨리 패치부터 해야할 골든타임에 문서정리 일일 숙제라니요?”25일 보안 담당자들 사이에서 나온 금융감독원에 대한 원성이다. 최근 자바 취약점과 패치가 공개된 후 금감원이 금융사들에게 요청한 ‘외부접점 전수점검’을 둘러싼 반응이다.국내 금융권 핵심 시스템 대부분에서 사용하는 기반 프로그램인 자바에서 고위험 취약점이 발견됨에 따라, 금감원은 19"
+    },
+    {
+      "source": "boannews",
+      "sourceLabel": "보안뉴스",
+      "title": "국립순천대 개인정보 유출 가능성... 개인정보 비인가 조회 정황도",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147538",
+      "published": "2026-11-25 17:32:02",
+      "description": "국립순천대에서 사용자 계정의 비밀번호가 무단 변경되고 개인정보가 비정상적으로 조회되는 사고가 발생했다.순천대는 24일 사과문을 게시하고, 대학에서 운영하는 ‘향림통시스템’을 노린 해킹으로 개인정보에 대한 비인가 조회 기록이 확인됐다고 밝혔다. 이 과정에서 현재까지 총 6772개 계정의 비밀번호가 무단으로 변경된 사실도 포착됐다. 다만 개인정보 실제 외부 유출 여부 및 범위는 추가 확인 중이다.순천대는 사고 발생 4시간 만에 사"
+    },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
@@ -38,60 +94,20 @@
       "description": "한국보안인증(대표 백건대)이 산·학·연·법조계 보안 전문가들의 자유로운 논의의 장을 열었다. 한국보안인증은 24일 서울 성수동 생각공장 데시앙플렉스에서 보안 세미나 ‘제1회 성수담론: 성을 지키는 이야기’를 개최했다고 25일 밝혔다. 이번 세미나는 일방적 발표 위주의 세미나 형식에서 벗어나 현업 보안 담당자 및 전문가들이 격식 없이 모여 자유로운 담론을 나누는 형식으로 진행됐다. 이날 우원식 전 국회의장은 축사를 통해 제1회 "
     },
     {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "[2026 보안 이슈 결산-4] CISO는 총알받이? ‘처벌 만능주의’ 논란",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147423",
-      "published": "2026-11-25 16:45:00",
-      "description": "2026년은 보안 담당자에 대한 과도한 개인 징벌이 회복탄력성을 저해하는 ‘규제의 역설‘과 정면으로 마주한 한 해였다. 특히 금융당국의 ’처벌 만능주의‘에 논란이 일었다. 보안 사고는 수많은 대내외적 요소가 맞물린 결과인데, 개인에게 과도한 징벌을 감당케 하는 게 맞는지 재고해야 한다는 여론이 확산됐다.특히 AI를 무기화한 해킹 공격이 일상이 되며 ‘완벽한 방어’가 불가해진 지금, 방어 최전선에 있는 실무 책임자 단죄 대신 피"
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "VMware 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72328",
+      "published": "2026-11-25",
+      "description": ""
     },
     {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "시큐아이, 취약 계층에 따뜻한 온기...김장김치 700kg 전달",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147534",
-      "published": "2026-11-25 16:44:05",
-      "description": "시큐아이(대표 정삼용)가 지역사회 취약계층을 위한 김장 봉사 활동을 진행했다.김장 봉사 활동은 시큐아이가 매년 이어오고 있는 정기 사회공헌 활동 중 하나다. 그동안 경제적·신체적 어려움으로 도움이 필요한 이웃들에게 따뜻한 나눔을 전하기 위해 사회공헌 활동을 진행하고 있다.시큐아이 임직원 봉사단이 직접 담그고 포장한 김치 700kg은 성북구 내 저소득층 및 장애인 가정 70세대에 전달된다.특히 이번 김장 봉사 활동에는 발달장애인"
-    },
-    {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "해킹 당한 더존비즈온, 보안 강화 ‘분골쇄신’... ‘보안 특별 자문위원회’ 출범",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147531",
-      "published": "2026-11-25 16:23:08",
-      "description": "침해사고를 당한 더존비즈온이 보안 강화를 위한 노력을 이어가고 있다. 안랩과 계약을 체결한 데 이어 보안 체계 강화를 위한 특별자문위원회도 출범했다. 더존비즈온 정보보호 체계 및 정책의 객관성과 실효성을 높이기 위함이다.더존비즈온은 외부 전문가 중심의 ‘사이버보안·정보보호 특별 자문위원회’를 출범하고 정보보호 거버넌스의 선제적 점검과 대응 역량을 강화한다고 25일 밝혔다. 앞서 더존비즈온은 23일 안랩과 사이버보안 역량 강화를"
-    },
-    {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "인트브릿지, AI MCP 서버 개인정보 유출 사전에 막는다",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147530",
-      "published": "2026-11-25 15:39:15",
-      "description": "정보보호 플랫폼 전문기업 인트브릿지(대표 김종진) 개인정보 탐지 솔루션 ‘파이로’(PYRO)가 MCP 서버 점검 기능을 추가했다. 인트브릿지는 25일 파이로를 업데이트하며 이같은 기능을 추가했다고 밝혔다. 이로써 파이로를 활용, 웹사이트와 API, 데이터베이스 서버에 더해 AI 에이전트가 연결하는 MCP 서버까지 같은 기준으로 점검할 수 있게 됐다. 기업 및 기관에서 업무에 AI 에이전트를 도입하는 사례가 늘어나면서 MCP 서"
-    },
-    {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "배재대, 같은 해커한테 두 번 당했다... 메일 계정 신청 정보 1만2050건 유출",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147529",
-      "published": "2026-11-25 14:52:06",
-      "description": "배재대학교가 같은 공격자한테 이달 16일과 21일 두 차례 해킹 공격을 당해 1만2000여건의 개인정보가 유출된 것으로 나타났다. 1차 사고 이후 재발을 막지 못한 것이다. 배재대는 24일 공지사항을 통해 “1차 해킹사고 조치 과정에서 미처 차단하지 못한 다른 경로를 통해 같은 공격자가 21일 학사·행정 서버에 다시 침입했다”며 “1차 안내에 포함되지 않았던 개인정보가 추가 유출된 사실을 확인했다”고 밝혔다. 앞서 배재대는 1"
-    },
-    {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "사기 메시지 악용 우려... 왓츠앱, IP 노출 결함 수정",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147435",
-      "published": "2026-11-25 14:44:41",
-      "description": "메타의 메신저 왓츠앱이 사기 메시지에 악용됐을 수 있는 안드로이드 앱 결함을 고쳤다. 받는 사람 기기의 IP 정보가 드러날 수 있는 결함이다.왓츠앱은 11월 보안 권고에서 결함 3건을 공개했다. 문제의 결함(CVE-2026-23871)은 왓츠앱 보안팀이 직접 찾았다. 왓츠앱은 이 결함이 특정 스팸 메시지와 함께 악용됐을 수 있다고 밝혔다.문제는 ‘클릭 투 왓츠앱’ 광고에서 나왔다. 누르면 곧바로 왓츠앱 대화창이 열리는 광고다."
-    },
-    {
-      "source": "boannews",
-      "sourceLabel": "보안뉴스",
-      "title": "이름·이메일 유출 첫 확인... EU 집행위원회, 해킹당한 EU 아카데미 접속 차단",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147475",
-      "published": "2026-11-25 14:32:33",
-      "description": "유럽연합(EU) 집행위원회가 해킹당한 온라인 학습 플랫폼 EU 아카데미의 일반인 접속을 차단했다. 이용자 이름과 이메일 주소가 유출됐다. 집행위원회가 이번 공격으로 이용자 개인정보가 유출됐다고 인정한 것은 처음이다.EU 아카데미는 EU 기관이 만든 강좌와 워크숍을 제공하는 사이트다. 지금은 사고를 조사 중이라는 공지만 떠 있고, 언제 다시 열지는 정해지지 않았다. 토마스 레니에(Thomas Regnier) 집행위원회 대변인은 "
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "HPE 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72327",
+      "published": "2026-11-25",
+      "description": ""
     },
     {
       "source": "kisa",
@@ -155,22 +171,6 @@
       "title": "Oracle 제품 보안 업데이트 권고",
       "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72315",
       "published": "2026-11-19",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "NGINX 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72314",
-      "published": "2026-11-19",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "Oracle 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72313",
-      "published": "2026-11-18",
       "description": ""
     }
   ],
