@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T03:34:38.819Z",
+  "updatedAt": "2026-11-26T16:54:38.039Z",
   "sources": [
     {
       "source": "boannews",
@@ -16,82 +16,98 @@
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "쿠도커뮤니케이션, ‘2026년 대한민국 일·생활균형 우수기업’ 선정",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147567",
-      "published": "2026-11-26 12:10:06",
-      "description": "AI·ICT 전문기업 쿠도커뮤니케이션(대표 김용식)이 고용노동부가 주최하는 ‘2026년 대한민국 일·생활균형 우수기업’에 선정됐다고 밝혔다.쿠도커뮤니케이션은 ‘행복한 사람들이 만들어 가는 더 나은 미래’라는 기업 비전을 바탕으로 임직원의 일과 삶의 균형을 위한 다양한 근무제도와 복지정책을 운영하고 있다. 근무시간을 단축하는 동시에 업무 효율을 유지할 수 있도록 조직문화와 업무 방식도 개선해 왔다.전 임직원을 대상으로 하루 30"
+      "title": "가비아, 병원 규모 따른 VDI 제공... “의료기관 망분리 시장 공략”",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147586",
+      "published": "2026-11-26 17:37:18",
+      "description": "클라우드 전문기업 가비아(공동대표 김홍국·원종홍)가 병원 규모에 맞춘 가상 데스크톱 인프라(VDI) 솔루션을 제공하며 의료기관 망분리 시장 공략에 나선다고 26일 밝혔다.가비아는 19일 서울 세종대 광개토관에서 열린 ‘병원 의료정보보호 컨퍼런스(KHISC 2026)’에서 병원용 VDI 솔루션을 선보였다. 중대형 병원용 ‘가비아 VDI’와 ‘가비아 VDI 라이트’이다.대한병원협회, 한국사회보장정보원, 디지털헬스보안협회가 공동 주"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "‘정보 암시장’ 해킹 포럼 우후죽순... 탈취 데이터 확산 우려↑",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147566",
-      "published": "2026-11-26 12:10:00",
-      "description": "다크웹에서 탈취한 데이터를 사고파는 ‘정보 암시장’ 역할을 하는 해킹 포럼들이 올해 우후죽순 생겨난 것으로 나타났다. 가장 인기있었던 해킹 포럼인 ‘브리치포럼스’(breachforums)가 미국 연방수사국(FBI)에 의해 검거된 이후 이와 비슷한 포럼들이 생겨나더니 탈취 정보 거래 생태계가 다변화된 모양새다. 26일  취재를 종합하면 올해 ‘다크포럼스’(Darkforums)를 비롯해 ‘인텔포럼스’(Intelforums), ‘p"
+      "title": "가격 비교 플랫폼 ‘다나와’ 해킹 추정 사고... 서비스 일시 중단",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147585",
+      "published": "2026-11-26 17:25:18",
+      "description": "가격 비교 플랫폼 ‘다나와’가 해킹으로 추정되는 보안 사고를 확인하고 서비스를 일시 중단했다. ‘다나와’ 운영사 커넥트웨이브는 26일 외부 침해로 추정되는 보안 사고를 확인하고 이날 오전 2시부터 서비스 이용을 중단했다. 커넥트웨이브는 공지사항에서 “보안 사고 확인 후 이용자 정보와 서비스를 보호하기 위해 서비스 이용을 일시 중단했으며, 현재 사고 원인과 영향 범위를 조사하고 있다”며 “개인정보 유출 여부도 함께 확인하고 있다"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "미국 홈보안 시장, 고정형 카메라 넘어 자율비행 드론으로 진화",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147558",
-      "published": "2026-11-26 12:00:00",
-      "description": "아마존(Amazon)의 홈보안 브랜드 링(Ring)은 지난 11월 10일 실내를 자율비행하며 집 안 곳곳을 감시하는 보안 드론의 공식 출시를 발표했다. 침입 감지 센서와 연동해 이상 상황이 발생한 장소로 이동하고, 사용자가 외부에서도 실시간 영상을 확인할 수 있는 제품이다.아마존 링, 자율비행 드론으로 실내 감시 사각지대 보완링의 실내용 보안 드론 캠은 고정형 카메라와 달리 집 안을 이동하며 필요한 공간을 촬영한다. 문과 창문"
+      "title": "한국항공보안학회, 항공보안공단 설립과 국가 항공보안 발전 방향 논의",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147583",
+      "published": "2026-11-26 17:07:42",
+      "description": "한국항공보안학회(회장 소대섭)는 26일 코엑스 마곡에서 학계와 산업계, 관계기관 전문가들이 참석한 가운데 ‘2026년 추계학술대회’를 개최했다.이번 학술대회는 정부가 추진 중인 인천국제공항공사와 한국공항공사의 항공보안 기능 및 양대 보안 자회사 통합을 통한 항공보안공단(가칭) 설립과 관련해 제도적 과제를 진단하고 국가 항공보안체계의 발전 방향을 모색하기 위해 마련됐다.기조발표와 주제발표에서는 조직 통합 과정에서의 항공보안 업무"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "국가자격시험 부정행위 대응 강화, 전파탐지기·이동형 CCTV·바디캠 도입 추진",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147561",
-      "published": "2026-11-26 11:50:51",
-      "description": "고용노동부(장관 김영훈)와 한국산업인력공단(이사장 이병훈)이 첨단기기를 활용한 국가자격시험 부정행위에 대응하기 위해 시험 전·중·후 전 과정의 관리·감독 체계를 강화한다. 전파탐지기와 이동형 CCTV, 감독관 바디캠 등 보안장비 도입도 추진한다.기존 국가자격시험 부정행위는 주로 메모지나 스마트폰을 활용하는 방식이었다. 그러나 지난 5월 국가자격시험에서 스마트안경을 이용한 부정행위가 처음 적발됐으며, 최근 세무사 시험에서는 초소"
+      "title": "국내 소규모 웹사이트 20여곳 털었던 해커, 또 해킹했다",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147581",
+      "published": "2026-11-26 17:06:32",
+      "description": "지난해 말과 올해 6월경 국내 소규모 웹사이트 20여곳에서 데이터를 탈취해 다크웹 포럼에서 판매했던 해커가 다시 공격 활동을 벌였다. 국내 소규모 웹사이트 4곳에서 데이터를 탈취했다고 주장하고 나섰다. 26일  취재를 종합하면 ‘애슐리우드2022’(Ashleywood2022)라는 닉네임의 해커는 25일 다크웹 해킹 포럼 ‘다크포럼스’(Darkforums)에 국내 소규모 웹사이트 4곳에 대한 탈취 데이터를 공개했다. 다만 4곳 "
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "한국가스공사, 국산 NPU 기반 AI CCTV 도입으로 안전관리 고도화",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147559",
-      "published": "2026-11-26 11:49:00",
-      "description": "한국가스공사(사장 홍의락)가 국가 핵심 에너지 시설에 국산 인공지능(AI) 반도체를 적용한 지능형 CCTV를 도입한다. 정부의 국산 AI 반도체 산업 육성 정책에 발맞춰 천연가스 생산·공급시설의 안전관리 역량을 강화한다는 방침이다.가스공사는 산업통상부와 협의를 거쳐 국산 신경망처리장치(NPU) 기반 AI CCTV 구축 사업을 추진한다고 밝혔다. 2027년 공급 분야의 대전충청지역본부와 생산 분야의 삼척기지 및 평택기지에 서버형"
+      "title": "독자 AI 모델로 해킹 방어대회... 과기정통부, ‘2026 ACDC’ 개최",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147582",
+      "published": "2026-11-26 17:04:57",
+      "description": "국내 독자 AI 모델을 활용한 해킹 방어대회가 열린다.과학기술정보통신부(부총리 겸 장관 배경훈)는 한국인터넷진흥원(KISA, 원장 직무대행 류재철), 한국정보보호산업협회(KISIA, 회장 김진수)와 함께 ‘2026 AI 해킹방어대회(ACDC)를 내달 1-2일 서울 삼성동 그랜드 인터컨티넨탈 서울 파르나스에서 개최한다고 26일 밝혔다.‘AI의 모든 순간에 사이버보안’(AI Everywhere. Cybersecurity Alway"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "인증 없이 루트 권한 탈취... 리눅스 ‘NFS2ROOT’ 제로클릭 경보",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147562",
-      "published": "2026-11-26 11:45:00",
-      "description": "리눅스 커널 내장 네트워크 파일 시스템 서버(nfsd)에서 12년간 잠복해 온 원격 코드 실행 취약점 ‘NFS2ROOT’(CVE-2026-99362)가 공개됐다. 계정 인증이나 클릭 없이 TCP 2049 포트 연결만으로 최고 관리자(root) 권한을 탈취할 수 있는 결함이다.보안 연구 조직 오픈섹 인텔리전스(OpenSec Intelligence)는 25일(현지시간) CVE-2026-99362의 상세 분석과 공격 실증 결과를 발"
+      "title": "“금감원 전수점검 필요한 일? ‘현장괴리’가 문제” [엑셀로 보안하나요③]",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147572",
+      "published": "2026-11-26 16:25:00",
+      "description": "금융감독원이 금융사 전반에 19일 배포한 ‘외부접점 전수점검’의 ‘취지’에는 대체로 이견이 없지만, 문제는 ‘현장과의 괴리’다. 이는 ‘속도전’이 돼버린 현 시대 보안에 공격자와 방어자간 ‘시간 비대칭’을 심화하는 심각한 문제라는 지적이 나온다.26일 보안 전문가들의 견해를 정리하면, 자산조사를 위한 전수점검이 꼭 필요하다면 △현실적으로 충분한 시간을 주고 △다수 기관이 아닌 일원화된 체계에서 △문서 의존이 아닌 자동화 등 ’"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "[인사] 에스원",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147564",
-      "published": "2026-11-26 11:44:07",
-      "description": "◇부사장 승진△경영지원담당 김송범◇상무 승진△인사팀 인사지원그룹장 김광조△R&D센터 통합솔루션팀장 백정우△시큐리티사업부 시큐리티지원팀장 염대호(2026. 11. 26. 자)"
+      "title": "[2026 보안 이슈 결산-6] 사람 대신 ‘비인간 신원’(NHI) 노린 해커... API 키 관리 비상",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147450",
+      "published": "2026-11-26 16:15:00",
+      "description": "2026년 기업 보안의 중심이 임직원 계정에서 API 키와 인증 토큰, AI 에이전트 등 ‘비인간 신원’(Non-Human Identity·NHI)으로 옮겨갔다. 상반기 국내 대형 플랫폼의 코드 내 키 유출부터 하반기 해외 클라우드 서비스 종료와 협업 도구 연동 중단까지, 방치된 기계 출입증이 연쇄 침해의 통로가 됐다. 사람 계정 위주의 기존 통제가 한계를 드러내며 비인간 신원 관리가 핵심 과제로 떠올랐다.NHI는 사람이 입력"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "인텔리빅스 전천후 AI 비전 센서 ‘빅스올캠’, 국정원 보안기능 확인서 획득",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147563",
-      "published": "2026-11-26 11:43:00",
-      "description": "안전 인공지능(AI) 전문기업 인텔리빅스(대표 최은수·장정훈)는 자사 전천후 AI 비전 센서 ‘빅스올캠(VIXallcam)’이 국가정보원 보안기능 확인서를 획득했다고 26일 밝혔다.국가정보원 보안기능 확인서는 국가·공공기관 도입을 위한 국가용 보안요구사항 충족 여부를 시험·검증하는 제도다. 이번 인증으로 빅스올캠은 전천후 영상 획득과 온디바이스 Vision-AI 역량에 더해 공공·국방 분야가 요구하는 보안 신뢰성까지 입증했다."
+      "title": "관악구, 범죄예방 환경개선 공로로 대통령표창 수상",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147579",
+      "published": "2026-11-26 15:48:26",
+      "description": "서울시 관악구(구청장 박준희)가 25일 정부과천청사에서 열린 ‘2026년 범죄예방대상’에서 범죄예방 환경개선과 지역사회 안전 증진에 기여한 공로로 대통령표창을 받았다.법무부가 주관하는 범죄예방대상은 범죄예방과 법질서 확립에 기여한 공공기관 및 단체 등의 우수사례를 발굴하고 그 성과를 포상하는 제도다. 관악구는 지난 12년간 범죄예방 환경설계(CPTED)를 적용한 안심골목길 사업을 추진해 관내 19개 동 31개소의 보행환경을 개"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "리니어리티, “AI 기억 오염되면 정상 업무 지시에도 정보 유출”... ICISSP 논문 채택",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147565",
-      "published": "2026-11-26 11:38:14",
-      "description": "AI 보안 기업 리니어리티(Linearity)가 AI 에이전트의 메모리 오염(Memory Poisoning) 위험성과 대응 방안을 연구한 논문이 국제 정보시스템 보안 및 프라이버시 학술대회 ‘ICISSP 2027’에 채택됐다고 26일 밝혔다.공격자가 AI에 잘못된 정보를 기억하게 만들면, 이후 사용자가 정상적인 업무를 지시하더라도 중요 정보가 외부로 유출될 수 있다는 내용이다.최근 AI 에이전트는 질문에 답하는 것을 넘어 직접"
+      "title": "개인정보 유출 뒤 번지는 2차 피싱 위협... ‘디지털 보호’ 필요한 이유",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147541",
+      "published": "2026-11-26 15:38:57",
+      "description": "최근 금융권 연쇄 침해사고와 더존비즈온·다우기술 등 기업용 소프트웨어(SW) 공급망 해킹이 잇따르며 2차 피해 우려가 커졌다. 이에 따라 기업 보안망 바깥에서 벌어지는 사칭과 유출 데이터 악용을 찾아 제거하는 ‘디지털 위험 보호’(DRP: Digital Risk Protection)가 새로운 보안 축으로 떠올랐다.DRP가 주목받는 배경에는 유출 사고가 1차 침해로 끝나지 않는다는 문제가 있다. 금융권과 전사적자원관리(ERP),"
     },
     {
       "source": "boannews",
       "sourceLabel": "보안뉴스",
-      "title": "에브리존, 리눅스 서버용 랜섬웨어 대응 ‘화이트디펜더’ 국내 최초 조달 등록",
-      "link": "https://www.boannews.com/news/articleView.html?idxno=147557",
-      "published": "2026-11-26 10:46:14",
-      "description": "랜섬웨어 대응 전문 보안기업 에브리존(대표 홍승균)이 국내 최초로 리눅스 서버용 안티랜섬웨어 제품을 조달 등록했다. 에브리존은 리눅스 서버용 안티랜섬웨어 솔루션 ‘화이트디펜더 리눅스 서버’가 리눅스 서버용 안티랜섬웨어 제품으로는 국내 최초로 조달 등록을 완료했다고 26일 밝혔다. 앞서 ‘화이트디펜터 리눅스 서버’는 GS인증 1등급을 취득한 바 있다. 이로써 공공조달 공급 경로를 확보하면서 공공기관의 리눅스 서버 데이터 보호와 "
+      "title": "자금세탁 감시 기관도 뚫렸다... 미국 FinCEN, 무단 접근에 시스템 일부 오프라인",
+      "link": "https://www.boannews.com/news/articleView.html?idxno=147545",
+      "published": "2026-11-26 15:15:13",
+      "description": "미국 재무부 산하 금융범죄단속네트워크(FinCEN)가 외부 무단 접근을 받아 일부 시스템을 오프라인으로 돌렸다. 은행들이 의심거래를 신고하는 창구 역할을 하는 기관이어서 어떤 정보에 손이 닿았는지가 관심사다.FinCEN은 24일(현지시각) 저녁 금융기관 보고서 제출 사이트인 은행보안법(BSA) 전자신고 사이트에 공지를 올려 사이버 보안 사고를 조사하고 있다고 밝혔다. 공지에 따르면 이번 사고로 “시스템 일부에 대한 무단 접근”"
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "Linux 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72330",
+      "published": "2026-11-26",
+      "description": ""
+    },
+    {
+      "source": "kisa",
+      "sourceLabel": "KISA 보호나라",
+      "title": "Drupal 제품 보안 업데이트 권고",
+      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72329",
+      "published": "2026-11-26",
+      "description": ""
     },
     {
       "source": "kisa",
@@ -154,22 +170,6 @@
       "sourceLabel": "KISA 보호나라",
       "title": "PHP 제품 보안 업데이트 권고",
       "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72318",
-      "published": "2026-11-19",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "F5 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72316",
-      "published": "2026-11-19",
-      "description": ""
-    },
-    {
-      "source": "kisa",
-      "sourceLabel": "KISA 보호나라",
-      "title": "Oracle 제품 보안 업데이트 권고",
-      "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72315",
       "published": "2026-11-19",
       "description": ""
     }
